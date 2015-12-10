@@ -1,0 +1,317 @@
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+body {
+    padding: 0;
+    color: #535353;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+
+.header,
+.marketing,
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* Make the masthead heading the same height as the navigation */
+
+.header h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+}
+
+.header .navbar-default {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    border-radius: 0;
+    border: none;
+    margin: 0;
+}
+
+.header .nav {
+    margin-top: 50px;
+}
+
+.header a {
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.header .nav > li {
+    height: 30px;
+}
+
+.header .nav > li > a {
+    padding: 3px 12px;
+}
+
+.header .navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.header .navbar-default .navbar-nav > .active > a {
+    background-color: #CD2122;
+}
+
+.header .navbar-default .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.header .navbar-default .navbar-nav > li > a:hover {
+    background-color: #cd2122;
+}
+
+
+/* Custom page footer */
+
+.footer {
+    padding: 0;
+    color: #777;
+}
+
+.container-narrow > hr {
+    margin: 30px 0;
+}
+
+
+/* Main marketing message and sign up button */
+
+.jumbotron {
+    text-align: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+
+/* Supporting marketing content */
+
+.marketing {
+    margin: 40px 0;
+}
+
+.marketing p + h4 {
+    margin-top: 28px;
+}
+
+
+/* Responsive: Portrait tablets and up */
+
+@media screen and (min-width: 768px) {
+    /* Remove the padding we set earlier */
+    .header,
+    .marketing,
+    .footer {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /* Remove the bottom border on the jumbotron for visual effect */
+    .jumbotron {
+        border-bottom: 0;
+    }
+}
+
+
+/* By Inspiracode:; */
+
+.footer .col-sm-3 {
+    padding: 0;
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+}
+
+.footer .step {
+    height: 273px;
+    padding: 20px;
+    position: relative;
+}
+
+.step .icon {
+    padding: 0;
+    min-height: 70px;
+    margin: 20px 0 15px;
+}
+
+.step a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.footer .container-fluid {
+    background-color: #ebebeb;
+    padding: 30px;
+}
+
+.footer .arrowRed:after {
+    content: '';
+    position: absolute;
+    top: 36px;
+    right: -16px;
+    border: 8px solid transparent;
+    z-index: 1;
+    border-left-color: rgb(205, 33, 34);
+}
+
+.footer .arrowGray:after {
+    content: '';
+    position: absolute;
+    top: 36px;
+    right: -16px;
+    border: 8px solid transparent;
+    z-index: 1;
+    border-left-color: #4a4a4a;
+}
+
+.footer .arrowDarkGray:after {
+    content: '';
+    position: absolute;
+    top: 36px;
+    right: -16px;
+    border: 8px solid transparent;
+    z-index: 1;
+    border-left-color: #3e3e3e;
+}
+
+.footer h3 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer .poweredBy {
+    background-color: #2F2F2F;
+    height: 44px;
+    padding: 12px;
+    text-align: left;
+}
+
+.poweredBy .container {
+    padding: 0;
+    color: #8b8c8d;
+}
+
+
+/* Main Container */
+
+.mainContainer {
+    padding: 20px 0;
+}
+
+.mainContainer h3 {
+    margin-top: 0;
+    color: #CD2122;
+    text-shadow: 0 1px 0 #fff;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.7);
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.mainContainer .templateList > li {
+    list-style: none;
+    background: url(../images/list-style1.png) no-repeat 2px 8px;
+    padding-left: 15px;
+    margin-bottom: 4px;
+}
+
+.mainContainer .templateList {
+    padding-left: 0;
+}
+
+.mainContainer p {
+    text-align: justify;
+    color: #535353;
+}
+
+.mainContainer.home {
+    background-color: #f5f5f5;
+}
+
+.mainContainer.home .tabbable {
+    background-image: url("../images/home/CAPSONIC_Logo-Icon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    position: relative;
+    height: 300px;
+    width: auto;
+    background-size: 350px;
+    max-width: 389px;
+}
+
+.mainContainer.home .tabbable a {
+    text-transform: uppercase;
+    text-align: center;
+    color: #000000;
+    position: absolute;
+    width: 122px;
+    font-size: 12px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.mainContainer.home .tabbable a:hover {
+    color: #cd2122;
+    text-decoration: none;
+}
+
+.mainContainer.home .fusion-tab-content {
+    height: 300px;
+    background-color: #fff;
+}
+
+.mainContainer.home .fusion-tab-pane {
+    padding-top: 30px;
+}
+
+.mainContainer.home .fusion-tab {
+    background: #fff;
+    border: 1px solid #c2c2c2;
+    border-radius: 3px;
+}
+
+.mainContainer.home .keyword {
+    font-size: 30px;
+    font-style: italic;
+    color: #696969;
+    padding: 10px;
+    font-weight: normal;
+}
+
+.mainContainer .list-group-item-heading {
+    margin: 0;
+}
+
+.mainContainer.products ul {
+    margin: 0;
+}
+
+.mainContainer.products td {
+    border-top: none;
+}
