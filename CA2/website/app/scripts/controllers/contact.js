@@ -7,11 +7,8 @@
  * # ContactCtrl
  * Controller of the ca2App
  */
-angular.module('ca2App')
-  .controller('ContactCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('ca2App').controller('ContactCtrl', function($scope) {
+    $scope.sendMessage = function() {
+    	alert('sending');
+    }
+});

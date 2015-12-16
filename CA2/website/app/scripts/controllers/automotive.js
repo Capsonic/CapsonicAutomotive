@@ -9,6 +9,10 @@
  */
 angular.module('ca2App').controller('AutomotiveCtrl', function($timeout) {
     $timeout(function() {
+        var myFlux = $('#slider').flux({
+            pagination: false
+        });
+
         $(".owl-carousel").owlCarousel({
             loop: true,
             margin: 10,

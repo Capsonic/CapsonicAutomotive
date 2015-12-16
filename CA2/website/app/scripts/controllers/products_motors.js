@@ -7,11 +7,12 @@
  * # ProductsMotorsCtrl
  * Controller of the ca2App
  */
-angular.module('ca2App')
-  .controller('ProductsMotorsCtrl', function () {
-    this.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+angular.module('ca2App').controller('ProductsMotorsCtrl', function($timeout) {
+    $timeout(function() {
+        $("#accordion").accordion({
+            collapsible: true,
+            heightStyle: 'content',
+            active: false
+        });
+    });
+});

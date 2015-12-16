@@ -1,4 +1,30 @@
+<style type="text/css">
+.titleAnimated,
+.titleAnimated:hover {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    background-color: transparent;
+    text-shadow: #fff 0 0 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+</style>
 <div class="mainContainer home">
+    <div class="row headerImage">
+        <img id="imgHeaderOne" style="bottom:20px;" ng-src="images/home/header/Capsonic_Auto_Aero_header-7-FINAL.jpg">
+        <img id="imgHeaderTwo" ng-src="images/home/header/RUFF5_grey-scaled.jpg">
+        <div id="divBorderParts" style="position:absolute;bottom:0;z-index:2;"><img id="imgBorderParts" ng-src="images/home/header/parts-border-7.jpg"></div>
+        <div class="hidden-xs" style="position:absolute;width:50%;color:white;bottom:250px;right:20px;z-index:1;">
+            <a class="titleAnimated" href="" ng-href="#/products_wire" style="left:3%;top:10px;">Wire Harness</a>
+            <a class="titleAnimated" href="" ng-href="#/products_lighting" style="left:40%;top:10px;">Lighting</a>
+            <a class="titleAnimated" href="" ng-href="#/products_sensors" style="left:78%;top:20px;">Sensors</a>
+            <a class="titleAnimated" href="" ng-href="#/products_motors" style="left:15%;top:60px;">Motor/Power Generation</a>
+            <a class="titleAnimated" href="" ng-href="#/products_switches" style="left:2%;top:85px;">Switches</a>
+            <a class="titleAnimated" href="" ng-href="#/products_actuator" style="left:58%;top:40px;">Actuators</a>
+            <a class="titleAnimated" href="" ng-href="#/products_solenoids" style="left:81%;top:80px;">Solenoids</a>
+        </div>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-8">
@@ -38,8 +64,8 @@
             </div>
         </div>
         <div class="row fusion-tab">
-            <div class="col-sm-4" style="padding:0;background-color: #B7B7B7;">
-                <div class="tabbable center-block" ng-init="activeTab='Powerful'">
+            <div class="col-md-5 col-sm-6" style="padding:0;background-color: #B7B7B7;">
+                <div class="tabbable center-block" ng-init="activeTab='Powerful'" style="min-width:375px;">
                     <a href="" ng-click="activeTab='Powerful'" style="top: 143px;left: 95px;font-size: 14px;color: #000;width: 200px;">Powerful Value</a>
                     <a href="" ng-click="activeTab='Technology'" style="top: 45px;left: 33px;">TECHNOLOGY &amp; INNOVATION</a>
                     <a href="" ng-click="activeTab='ValueStream'" style="top: 46px;left: 252px;">OPTIMAL GLOBAL VALUE STREAM</a>
@@ -47,7 +73,7 @@
                     <a href="" ng-click="activeTab='Locations'" style="top: 212px;left: 246px;">MULTIPLE MANUFACTURING LOCATIONS &amp; CAPABILITIES</a>
                 </div>
             </div>
-            <div class="col-sm-8">
+            <div class="col-md-7 col-sm-6">
                 <div class="fusion-tab-content">
                     <div class="fusion-tab-pane" ng-show="activeTab=='Powerful'">
                         <h4></h4>
@@ -156,6 +182,7 @@
         </div>
         <div class="row">
             <div class="col-sm-12">
+                <br>
                 <label class="center-block keyword text-center">See the Power of Fusion...</label>
             </div>
         </div>
