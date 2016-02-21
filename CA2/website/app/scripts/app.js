@@ -125,6 +125,11 @@ angular.module('ca2App', [
             controller: 'TermsConditionsCtrl',
             controllerAs: 'termsConditions'
         })
+        .when('/nuevaPagina', {
+          templateUrl: 'views/nuevapagina.html',
+          controller: 'NuevapaginaCtrl',
+          controllerAs: 'nuevaPagina'
+        })
         .otherwise({
             redirectTo: '/'
         });

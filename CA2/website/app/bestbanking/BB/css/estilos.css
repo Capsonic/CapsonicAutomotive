@@ -1,0 +1,5729 @@
+@charset "utf-8";
+/* CSS Documento */
+/* Inicializando los estilos */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, code, em, font, img, s, strong, sub, sup, b, u, center, dl, dt, dd, ol, ul, li, form, label, table, caption, tbody, tr, th{
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*background: transparent;*/
+}
+html{
+	height: 100%;
+}
+
+ol, ul {
+	list-style: none;
+}
+a { 
+	color:#1e87dd; 
+	text-decoration:none; 
+}
+a:hover {
+	color:#09347a;
+}
+/*****************************/
+/*** marcos ***/
+.a_bloq_btn1{
+	float:right;
+	padding-right:15px;
+	padding-top:7px;
+	height:20px;
+}
+.a_inp_btn55{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:55px;
+	background:url(/bestbanking/BB/images/a_btn55.gif);
+	border:0px;
+	cursor:pointer;
+}
+.a_inp_btn55:hover{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:55px;
+	background:url(/bestbanking/BB/images/a_btn55h.gif);
+	border:0px;
+	cursor:pointer;
+}
+.a_inp_txt1{
+	border:#7e9db9 1px solid;
+	width:24px;
+	padding-left:2px;
+	padding-right:2px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	height:16px;
+}
+.a_marco1_esq1{
+	width:20px;
+	background:url(/bestbanking/BB/images/ab_esq1.gif) no-repeat;
+	height:18px;
+	font-size:30%;
+}
+.a_marco1_esq2{
+	width:20px;
+	background:url(/bestbanking/BB/images/ab_esq2.gif) no-repeat;
+	height:18px;
+	font-size:30%;
+}
+.a_marco1_esq3{
+	width:20px;
+	background:url(/bestbanking/BB/images/ab_esq3.gif) bottom no-repeat;
+	height:21px;
+	font-size:30%;
+}
+.a_marco1_esq4{
+	width:20px;
+	background:url(/bestbanking/BB/images/ab_esq4.gif) bottom no-repeat;
+	height:21px;
+	font-size:30%;
+}
+.a_marco1_bordeT{
+	height:17px;
+	border-top:#7487ae 1px solid;
+	font-size:30%;
+}
+.a_marco1_bordeR{
+	height:17px;
+	border-right:#7487ae 1px solid;
+	font-size:30%;
+}
+.a_marco1_bordeB{
+	height:20px;
+	border-bottom:#7487ae 1px solid;
+	font-size:30%;
+}
+.a_marco1_bordeL{
+	height:17px;
+	border-left:#7487ae 1px solid;
+	font-size:30%;
+}
+.a_marco2_esq3{
+	width:10px;
+	background:url(/bestbanking/BB/images/ac_esq3.gif) bottom no-repeat;
+	height:8px;
+	font-size:20%;
+}
+.a_marco2_esq4{
+	width:10px;
+	background:url(/bestbanking/BB/images/ac_esq4.gif) bottom no-repeat;
+	height:8px;
+	font-size:20%;
+}
+.a_marco2_bordeB{
+	font-size:20%;
+	height:8px;
+	background:url(/bestbanking/BB/images/bordeT_2.gif) bottom;
+}
+.a_marco3_esq3{
+	padding-left:1px;
+	background:url(/bestbanking/BB/images/ac_esq3.gif) left bottom no-repeat;
+}
+.a_marco3_esq4{
+	background:url(/bestbanking/BB/images/ac_esq4.gif) right bottom no-repeat;
+	padding-right:1px;
+}
+/*FX*/
+.a_marco51_esq51{
+	padding-left:1px;
+	background:url(/bestbanking/BB/images/ac_esq51.gif) left bottom no-repeat;
+}
+/*FX*/
+.a_marco50_esq50{
+	background:url(/bestbanking/BB/images/ac_esq50.gif) right bottom no-repeat;
+	padding-right:1px;
+}
+
+.a_nota_consulta{
+	height:18px;
+	padding-top:8px;
+	text-align:center;
+	border-top:#c0c0c0 1px dotted;
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	font-size:11px;
+	color:#656565;
+}
+.a_nota_consulta a{
+	font-size:11px;
+}
+/*** paginacion ***/
+.a_paginacion_bloq{
+	height:27px;
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	border-top:#c0c0c0 1px dotted;
+	color:#656565;
+}
+.a_paginacion_bloqC{
+	height:27px;
+	border-top:#c0c0c0 1px dotted;
+	color:#656565;
+}
+.a_paginacion_bloqB{
+	height:27px;
+	background:#EFF8FF;
+	border-top:#c0c0c0 1px dotted;
+	color:#656565;
+}
+.a_paginacion_bloq1{
+	float:left;
+	padding-top:8px;
+	padding-left:15px;
+	padding-right:7px;
+	height:19px;
+	border-right:#c0c0c0 1px dotted;
+	font-size:11px;
+}
+.a_paginacion_bloq2{
+	float:left;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:6px;
+	height:21px;
+	border-right:#c0c0c0 1px dotted;
+	font-size:11px;
+}
+.a_paginacion_bloq3{
+	float:left;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:3px;
+	height:24px;
+	border-right:#c0c0c0 1px dotted;
+	font-size:11px;
+}
+.a_paginacion_bloq4{
+	float:right;
+	padding-left:10px;
+	padding-right:7px;
+	padding-top:8px;
+	height:19px;
+	font-size:11px;
+}
+.a_paginacion_bloq5{
+	float:right;
+	padding-top:3px;
+	height:24px;
+}
+.a_paginacion_bloq6{
+	float:right;
+	padding-left:7px;
+	padding-right:10px;
+	padding-top:8px;
+	height:19px;
+	font-size:11px;
+}
+.a_paginacion_bloq7{
+	float:right;
+	padding-right:15px;
+	padding-top:3px;
+	height:24px;
+}
+.a_tabla_flechas_bloq{
+	font-size:11px;
+}
+.a_tabla_flechas_bloq td{
+	padding:0px!important;
+	font-weight:bold;
+	color:#333!important;
+	font-size:11px;
+}
+.a_tabla_flechas_bloq div{
+	margin-left:3px;!important;
+}
+.borderTopFFF{
+	border-top:1px solid #FFFFFF;
+}
+.borderTop2FFF{
+	border-top:2px solid #FFFFFF;
+}
+.top2{
+	position:relative;
+	top:2px;
+}
+.a_paginacion_bloq_MP{
+	height:23px;
+	color:#656565;
+}
+.a_paginacion_bloq1_MP{
+	float:left;
+	padding-top:5px;
+	padding-left:15px;
+	padding-right:7px;
+	height:15px;
+	border-right:#c0c0c0 1px dotted;
+	font-size:11px;
+}
+.a_paginacion_bloq2_MP{
+	float:left;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:4px;
+	height:16px;
+	border-right:#c0c0c0 1px dotted;
+	font-size:11px;
+}
+.a_paginacion_bloq3_MP{
+	float:left;
+	padding-left:30px;
+	padding-right:30px;
+	padding-top:3px;
+	height:20px;
+	border-right:#c0c0c0 1px dotted;
+	font-size:11px;
+}
+.a_paginacion_bloq4_MP{
+	float:right;
+	padding-left:10px;
+	padding-right:7px;
+	padding-top:6px;
+	height:15px;
+	font-size:11px;
+}
+.a_paginacion_bloq5_MP{
+	float:right;
+	padding-top:3px;
+	height:20px;
+}
+.a_paginacion_bloq5_MP2{
+	float:right;
+	height:20px;
+}
+.a_paginacion_bloq6_MP{
+	float:right;
+	padding-left:7px;
+	padding-right:10px;
+	padding-top:6px;
+	height:14px;
+	font-size:11px;
+}
+.a_paginacion_bloq7_MP{
+	float:right;
+	padding-right:15px;
+	padding-top:1px;
+	height:20px;
+}
+/**/
+.panelIzContenedor1{
+	width:auto;
+	height:24px;
+	background:#e2f2fe;
+}
+.panelIzContenedor1_v1{
+	width:10px;
+	height:24px;
+	float:left;
+	background:url(/bestbanking/BB/images/bg2.gif) -14px -224px;
+}
+.panelIzContenedor1_v2{
+	width:10px;
+	height:24px;
+	float:right;
+	background:url(/bestbanking/BB/images/bg2.gif) -26px -224px;
+}
+.panelIzContenedor1_c1{
+	height:20px;
+	padding-left:10px;
+	padding-top:4px;
+	float:left;
+}
+.panelIzContenedor1_c1 a {
+	color:#1e87dd;
+	font-size:11px;
+	text-decoration:underline;
+}
+.panelIzContenedor1_c1 a:hover{
+	color:#09347a;
+}
+.panelIzContenedor1_c1 span {
+	color:#666666;
+	font-size:11px;
+}
+/*CNBV*/
+.panelIzEnca1a{
+	font-size:16px;
+	font-weight:bold;
+}
+.panelIzEnca1{
+	padding-top:13px;
+	font-size:16px;
+	font-weight:bold;
+}
+.panelIzEnca1 p{
+	font-size:11px;
+	font-weight:normal;
+	color:#666666;
+}
+.panelIzEnca1b{
+	padding-left:8px;
+	font-size:14px;
+	font-weight:bold;
+}
+.f3{
+	float:left;
+	width:15px;
+	height:15px;
+	cursor:pointer;
+}
+.panelIzEnca2{
+	padding-left:8px;
+	padding-top:13px;
+	font-size:14px;
+	font-weight:bold;
+}
+.panelIzEnca3{
+	padding-left:8px;
+	padding-top:13px;
+	font-size:14px;
+	height:18px;
+	font-weight:bold;
+}
+.panelIzEnca3_text{
+	float:left;
+	padding-top:1px;
+}
+.panelIzEnca3_text span{
+	font-size:16px;
+	font-weight:bold;
+	cursor:default;
+}
+.panelIzEnca3_text2{
+	font-size:14px;
+	font-weight:bold;
+}
+.panelIzEnca3_text2b{
+	font-size:14px;
+	padding-left:4px;
+	font-weight:bold;
+}
+.panelIzEnca3_text3{
+	padding-left:4px;
+	font-weight:bold;
+	padding-right:14px;
+}
+.panelIzEnca3_text3in{
+	font-size:12px;
+	border-bottom:#cdcecf 1px solid;
+	font-weight:bold;
+	padding-bottom:2px;
+	padding-top:20px;
+}
+.panelIzEnca4{
+	padding-top:25px;
+	font-size:14px;
+	font-weight:bold;
+}
+.flecha1{
+	float:left;
+	width:11px;
+	height:11px;
+	cursor:default;
+	background:url(/bestbanking/BB/images/bg2.gif) right -483px no-repeat;
+}
+.cortinaflecha1{
+	width:15px;
+	height:15px;
+	background:#FFFFFF;
+	display:none;
+}
+.flecha2{
+	float:left;
+	width:11px;
+	height:11px;
+	cursor:default;
+	background:url(/bestbanking/BB/images/bg2.gif) right -153px no-repeat;
+}
+.cortinaflecha2{
+	width:21px;
+	height:18px;
+	background:#FFFFFF;
+	display:none;
+}
+.flecha3{
+	float:left;
+	width:11px;
+	height:11px;
+	cursor:default;
+	background:url(/bestbanking/BB/images/bg2.gif) right -463px no-repeat;
+}
+.cortinaflecha3{
+	width:21px;
+	height:18px;
+	background:#FFFFFF;
+	display:none;
+}
+.flecha4{
+	float:left;
+	width:11px;
+	height:11px;
+	cursor:default;
+	background:url(/bestbanking/BB/images/bg2.gif) right -443px no-repeat;
+}
+.flecha5{
+	width:11px;
+	height:11px;
+	cursor:default;
+	background:url(/bestbanking/BB/images/bg2.gif) right -503px no-repeat;
+}
+.activaflecha{
+	float:left;
+	width:17px;
+	padding-left:4px;
+	padding-top:5px;
+	height:13px;
+	cursor:default;
+}
+/* vista general saldos */
+.saldos_bloque1{
+	width:100%;
+	height:50px;
+}
+.saldos_bloque1b{
+	width:100%;
+	height:55px;
+}
+.saldos_bloque1c {
+	width:100%;
+	padding-top:5px;
+	padding-bottom:15px;
+	font-size:11px;
+	color:#666666;
+}
+.saldos_bloque2{	
+	background:#e2f2fe; 
+	width:100%;
+	clear:both;
+}
+.expand{
+}
+.saldos_bloque1_tit1{
+	font-size:24px;
+	color:#09347a;
+	line-height:24px;
+	float:left;
+	padding-top:15px;
+	font-weight:bold;
+}
+.saldos_bloque1_tit1_btnBox{
+	float:left;
+	width:22px;
+	padding-left:2px;
+	height:19px;
+	cursor:default;
+	padding-top:5px;
+}
+.saldos_bloque1_tit1_btn{
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) right -392px no-repeat;
+	width:13px;
+	height:14px;
+	cursor:default;
+}
+.saldos_bloque1_tit1_txt{
+	float:left;
+	cursor:default;
+}
+.saldos_bloque1_tit1_txt span{
+	font-size:24px;
+	color:#09347a;
+	line-height:24px;
+	cursor:default;
+	font-weight:bold;
+}
+.saldos_bloque1_tit1_txt p {
+	font-size:11px;
+	color:#09347a;
+	cursor:default;
+}
+.saldos_bloque1_tit2{
+	font-size:16px;
+	color:#333;
+	line-height:16px;
+	float:left;
+	padding-top:23px;
+	font-weight:bold;
+}
+.saldos_bloque1_box1{
+	float:right;
+	width:180px;
+	padding-top:24px;
+	height:21px;
+}
+.saldos_bloque2_f1{
+	padding-top:10px;
+	width:100%;
+	height:16px;
+	float:left;
+}
+.saldos_bloque2_f1_btn{
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	margin-left:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) left -35px no-repeat;
+	float:left;
+}
+.cortinabtnSaldos{
+	width:16px;
+	height:16px;
+	display:none;
+}
+.saldos_bloque2_f1_btnH{
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	margin-left:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) -16px -35px no-repeat;
+	float:left;
+}
+.saldos_bloque2_f1_txt{
+	padding-left:10px;
+	font-weight:bold;
+	float:left;
+}
+.saldos_bloque2_f2{
+	padding-top:10px;
+	width:100%;
+	float:left;
+}
+.saldos_bloque2_f2_txt{
+	padding-left:36px;
+	color:#666666;
+	font-size:11px;
+	float:left;
+}
+.saldos_bloque2_f3{
+	padding-top:10px;
+	width:100%;
+	float:left;
+}
+.saldos_bloque2_f3in{
+	padding-left:36px;
+	float:left;
+}
+.saldos_bloque2_f3inb{
+	width:100%;
+	float:left;
+}
+.saldos_bloque2_bg_blanco{
+	width:100%;
+	float:left;
+	background:#ffffff;
+	margin-top:10px;
+}
+.saldos_bloque2_f4{
+	width:330px;
+	float:left;
+}
+.saldos_bloque2_f4b{
+	width:400px;
+	float:left;
+}
+.saldos_bloque2_f4_txt{
+	color:#666666;
+	float:left;
+	padding-bottom:5px;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:5px;
+}
+.saldos_bloque2_f4_txt3{
+	color:#666666;
+	float:left;
+	padding-bottom:5px;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:7px;
+}
+.saldos_bloque2_f6_txt{
+	color:#666666;
+	float:right;
+	padding-bottom:5px;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:5px;
+}
+.saldos_bloque2_f4_txt2{
+	color:#666666;
+	float:left;
+	font-size:11px;
+	width:100%;
+	padding-top:10px;
+}
+.saldos_bloque2_f4_txt2 span{
+	color:#666666;
+	font-size:11px;
+}
+.saldos_bloque2_f4_error{
+	height:15px;
+	float:left;
+	padding-top:5px;
+	display:none;
+	padding-left:125px;
+	width:300px;
+}
+.saldos_bloque2_f4_error span{
+	color:#ee2e24;
+	background:url(/bestbanking/BB/images/bg2.gif) -38px -23px no-repeat;
+	padding-left:17px;
+	display:none;
+	font-size:11px;
+}
+.saldos_bloque2_f4_inp{
+	float:left;
+	width:320px;
+}
+.saldos_bloque2_f4_inp2{
+	float:left;
+	width:180px;
+}
+.saldos_bloque2_f4_inp2b{
+	float:left;
+	width:190px;
+}
+.saldos_bloque2_f4_inp2c{
+	float:left;
+	width:280px;
+}
+.saldos_bloque2_f4_inp3{
+	float:left;
+	width:180px;
+	padding-left:10px;
+	padding-top:4px;
+}
+.saldos_bloque2_f4_inp3b{
+	float:left;
+	padding-left:10px;
+	padding-top:4px;
+}
+.saldos_bloque2_f4_inp3b a{
+	text-decoration:underline;
+	font-size:11px;
+}
+.saldos_bloque2_f4_inp3 a{
+	text-decoration:underline;
+	font-size:11px;
+}
+.saldos_bloque2_f5{
+	width:325px;
+	float:left;
+}
+.saldos_bloque2_f52{
+	width:380px;
+	float:left;
+}
+.saldos_bloque2_f53{
+	width:420px;
+	float:left;
+}
+.saldos_bloque2_f6{
+	width:100px;
+	float:right;
+}
+.saldos_bloque2_f6_2{
+	width:160px;
+	float:right;
+	padding-top:15px;
+}
+.saldos_bloque2_f6_inp{
+	float:left;
+	width:100px;
+	height:20px;
+}
+.saldos_bloque3{
+	padding-top:20px;
+	width:100%;
+}
+.saldos_bloque3b{
+	padding-top:20px;
+	width:100%;
+	font-size:11px;
+}
+.saldos_bloque3b a, .saldos_bloque3b span, .saldos_bloque3b div{
+	font-size:11px;
+}
+.saldos_bloque4{
+	height:25px;
+	background:#7386ad;
+	width:100%;
+}
+.saldos_bloque4b{
+	height:25px;
+	width:100%;
+}
+.saldos_bloque4_f1{
+	padding-top:5px;
+	padding-left:10px;
+	float:left;
+}
+.saldos_bloque4_f1_btn{
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	margin-left:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) left -15px no-repeat;
+	float:left;
+}
+.saldos_bloque4_f1_btnH{
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	margin-left:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) -16px -15px no-repeat;
+	float:left;
+}
+.saldos_bloque4_f1_txt{
+	padding-left:10px;
+	font-weight:bold;
+	cursor:default;
+	font-size:14px;
+	float:left;
+	color:#FFF;
+}
+.saldos_bloque4_f2{
+	padding:5px 20px 0 20px;
+	height:20px;
+	color:#FFF;
+	border-left:#FFF 1px solid;
+	float:right;
+}
+.saldos_bloque4_f2_2{
+	padding:5px 20px 0 20px;
+	height:20px;
+	color:#FFF;
+	float:right;
+}
+.saldos_bloque4_f2_2 a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.saldos_bloque4_f2_2 a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}.saldos_bloque4_f2 a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+	font-size:11px;
+}
+.saldos_bloque5{
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	padding-left:10px;
+	padding-right:10px;
+}
+.saldos_bloque5b{
+	background:#e0e0e0;
+	width:100%;
+	height:10px;
+	font-size:30%;
+	background:url(/bestbanking/BB/images/bg2.gif) left bottom;
+}
+.saldos_bloque5c{
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	padding-left:20px;
+	padding-right:20px;
+}
+.saldos_bloque5_esquBotL{
+	padding:0px!important;
+	height:10px;
+	font-size:30%;
+	width:100%;
+	background:url(/bestbanking/BB/images/bg2.gif) -40px -359px no-repeat;
+}
+.saldos_bloque5_esquBotR{
+	padding:0px!important;
+	height:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) right -379px no-repeat;
+	width:100%;
+	font-size:30%;
+}
+.tablaSaldos2{
+	padding-left:14px;
+	padding-right:14px;
+}
+.tablaSaldos3{
+}
+.tablaSaldos3 td{
+	padding:5px 10px 5px 10px;
+	color:#666;
+	font-size:11px;
+	line-height:12px;
+}
+.tablaSaldos3 span{
+	font-weight:bold;
+	color:#333;
+	font-size:11px;
+}
+.tablaSaldos3 p{
+	color:#333;
+	font-weight:bold;
+	font-size:12px;
+}
+.tablaSaldos3 a{
+	font-size:11px;
+	text-decoration:underline;
+}
+.tablaSaldos4{
+	padding-left:10px;
+	padding-right:10px;
+	font-size:11px;
+}
+tablaSaldos4 td{
+	font-size:11px;
+}
+tablaSaldos4 a{
+	font-size:11px;
+}
+.tablaSaldos4 a{
+	text-decoration:underline;
+	font-size:11px;
+}
+.tablaSaldos4 td{
+	padding:5px 10px 5px 10px;
+	color:#666;
+	font-size:11px;
+}
+.tablaSaldos4 span{
+	font-weight:bold;
+	color:#333;
+	font-size:11px;
+}
+.tablaSaldos4 p{
+	font-weight:bold;
+	color:#333;
+	font-size:12px;
+}
+.tablaSaldos5{
+}
+.tablaSaldos5 td{
+	color:#666;
+	font-size:14px;
+	line-height:14px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.tablaSaldos5 span{
+	font-weight:normal;
+	color:#333;
+	font-size:14px;
+}
+.tablaSaldos5 p{
+	color:#666;
+	font-weight:normal;
+	font-size:14px;
+}
+.especialTxt{
+	font-weight:bold;
+	color:#333;
+	text-align:right;
+	height:16px;
+	display:block;
+	width:160px;
+	font-size:12px;
+}
+.tablaSaldos_filaG1{
+	background:#f4f4f4;
+	border-top:#FFF 2px solid;
+	padding-left:35px!important;
+	border-bottom:#FFF 15px solid;
+}
+.tablaSaldos2_bordeR{
+	border-right:#cdcecf 1px solid;
+}
+.tablaSaldos2_bordeT{
+	border-top:#cdcecf 1px solid;
+}
+.tablaSaldos2_celdaBtn1{
+	border-right:#cdcecf 1px solid;
+	width:11px;
+}
+.bordesIz1_2{
+	border-left:1px solid #7487ae;
+	background:#e2f2fe;
+}
+.bordesDe1_2{
+	border-right:1px solid #7487ae;
+	background:#e2f2fe;
+}
+
+.bordeSupCe2b_2{
+	width:100%;
+	background:#e2f2fe;
+	border-top:1px solid #7487ae;
+}
+.bordeSupCe2b_v{
+	width:100%;
+	background:#edf5e8;
+	border-top:1px solid #64ad40;
+}
+.bordeSupCe2c_V{
+	width:100%;
+	background:#edf5e8;
+	border-bottom:1px solid #64ad40;
+}
+.bordesIz1_v{
+	background:#edf5e8;
+	border-left:1px solid #64ad40;
+}
+.bordesDe1_v{
+	background:#edf5e8;
+	border-right:1px solid #64ad40;
+}
+.bordeSupCe2{
+	background:url(/bestbanking/BB/images/saldos_bordeCe2.gif) left -9px repeat-x;
+}
+.bordeSupCe2b{
+	background:url(/bestbanking/BB/images/bordeT.png);
+	width:100%;
+}
+.bordeSupCe2c{
+	background:url(/bestbanking/BB/images/bordeT.png) left 14px;
+}
+.bordeInfCe2{
+	background:url(/bestbanking/BB/images/saldos_bordeCe2.gif) left bottom repeat-x;
+}
+.bordeInfCe2 span{
+	font-size:30%;
+}
+.bordeTablaDe{
+	background:url(/bestbanking/BB/images/saldos_bordeTabla.gif) right top repeat-y;
+}
+.bordeTablaIz{
+	background:url(/bestbanking/BB/images/saldos_bordeTabla.gif) -9px top repeat-y;
+}
+.saldos_encaTabla1{
+	background:url(/bestbanking/BB/images/bg1.gif) 0px -263px no-repeat;
+	height:23px;
+	width:155px;
+	padding-left:10px;
+	color:#FFF;
+	float:left;
+	font-weight:bold;
+	padding-top:2px;
+}
+.bordeslaterales1{
+	border-left:#7487ae 1px solid;
+	border-right:#7487ae 1px solid;
+}
+.bordesIz1{
+	background:#fff;
+	border-left:1px solid #7487ae;
+}
+.bordesDe1{
+	background:#fff;
+	border-right:1px solid #7487ae;
+}
+#buscarResult{
+}
+.input{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:11px;
+	padding-top:2px;
+	color:#666;
+	height:17px;
+}
+.input1{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:249px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:11px;
+	padding-top:2px;
+	color:#666;
+	height:17px;
+}
+/*DOMICILIACION*/
+.input6{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:242px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:11px;
+	padding-top:2px;
+	color:#666;
+	height:17px;
+}
+.input2{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:170px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:17px;
+}
+.input2_d{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:170px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:17px;
+	background:#eeeeee;
+}
+.input3{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:100px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:17px;
+}
+.input4{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:40px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:15px!important;
+}
+textarea{ font-family:Arial, Helvetica, sans-serif;}
+select{
+	border:#7e9db9 1px solid;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;
+}
+.select1{
+	border:#7e9db9 1px solid;
+	width:180px;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;
+}
+.select2{
+	border:#7e9db9 1px solid;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;
+}
+.select2_ex{
+	vertical-align:middle;
+	border:#7e9db9 1px solid;
+	width:310px;
+	color:#666;
+	height:20px;
+	font-size:11px;
+}
+
+.select2b {
+    border:#7E9DB9 1px solid;
+    color: #666;
+    font-size: 11px;
+    height: 20px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    width: 356px;
+}
+
+.select2_ex2_2{
+	vertical-align:middle;
+	border:#7e9db9 1px solid;
+	width:70%;
+	color:#666;
+	height:20px;
+	font-size:11px;
+}
+.inputBtn1{
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/bg1.gif) left -827px no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn1:hover{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/bg1.gif) right -827px no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn1_des{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/btn_des.gif) no-repeat;
+	border:0px;
+	cursor:default;
+}
+.inputBtn2{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:105px;
+	background:url(/bestbanking/BB/images/bg1.gif) left -852px no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn2:hover{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:105px;
+	background:url(/bestbanking/BB/images/bg1.gif) right -852px no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn2b{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/btn_celeste.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn2b:hover{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/btn_celesteh.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn3a{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:4px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/bg1.gif) left -827px no-repeat;
+	border:0px;
+	cursor:pointer;
+	font-size:12px;
+}
+.inputBtn3a:hover{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/bg1.gif) right -827px no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.saldos_bordeSupIz{ 
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) left -338px;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) -15px -253px no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2b{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) right -339px no-repeat;
+	height:15px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2c{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) right -354px no-repeat;
+	height:15px;
+	font-size:30%;
+}
+.saldos_bordeSupDe{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) -12px -338px no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeSupDe2{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) -10px -279px no-repeat;
+	height:10px;
+	padding:0px;
+	margin:0px;
+	font-size:30%;
+}
+.saldos_bordeSupDe2b{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 15px;
+	width                : 10px;
+	background-position  : -98px -99px;
+	font-size:30%;
+	padding:0px;
+	margin:0px;	
+}
+.saldos_bordeSupDe2d{
+	width:20px;
+	padding:0px;
+	margin:0px;
+	height:25px;
+	background:url(/bestbanking/BB/images/bg2.gif) left -279px no-repeat;
+	float:right;
+}
+.saldos_bordeInfDe2c{
+	width:10px;
+	padding:0px;
+	margin:0px;
+	background:url(/bestbanking/BB/images/bg2.gif) right -374px no-repeat;
+	height:15px;
+	font-size:30%;
+}
+.saldos_bordeSupDe2c{
+	width:10px;
+	padding:0px;
+	margin:0px;
+	height:15px;
+	font-size:30%;
+}
+.saldos_bordeInfDe{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) -12px -350px no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeInfDe2{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) -27px -266px no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeInfDe5{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) right -224px;
+	height:25px;
+	font-size:30%;
+}
+.saldos_bordeInfCe5{
+	background:url(/bestbanking/BB/images/bg2.gif) left -169px;
+	height:23px;
+	padding-top:2px;
+	padding-left:2px;
+}
+.saldos_bordeInfCe5 div{
+	font-size:12px;
+	color:#FFF;
+	float:left;
+}
+.saldos_bordeInfCe5 a{	
+	color:#FFFFFF;
+	padding-top:4px;
+	text-decoration:underline;
+	font-size:12px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.saldos_bordeInfCe5 a:hover{
+	color:#FFFFFF;	
+	text-decoration:underline;
+}
+.saldos_bordeInfIz{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) left -350px no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeInfIz2{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) -27px -253px no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeInfIz5{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) left -224px;
+	height:25px;
+	font-size:30%;
+}
+.saldos_esquinaSubI{
+	width:10px;
+	height:10px;
+	background:#033;
+	position:relative;
+	bottom:0px;
+}
+.saldos_bordeDe2{
+	width:10px;
+	background:url(/bestbanking/BB/images/bg2.gif) left bottom;
+	height:10px;
+	font-size:30%;
+}
+.saldos_btn1{
+	width:20px;
+	height:21px;
+	cursor:pointer;
+	float:right;
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) left -102px no-repeat;
+}
+.saldos_btn1b{
+	width:20px;
+	height:21px;
+	cursor:pointer;
+	float:right;
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) left -102px no-repeat;
+}
+.saldos_btn1b:hover{
+	width:20px;
+	height:21px;
+	cursor:pointer;
+	float:right;
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) right -102px no-repeat;
+}
+.saldos_btn2{
+	width:23px;
+	height:21px;
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) left -128px no-repeat;
+}
+.saldos_btn1:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) right -102px no-repeat;
+}
+.saldos_btn2:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) right -128px no-repeat;
+}
+.saldos_btn2b{
+	width:23px;
+	height:21px;
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) left -128px no-repeat;
+}
+.saldos_btn3{
+	width:16px;
+	height:21px;
+	margin-right:10px;
+	cursor:pointer;
+	float:right;
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) left -53px no-repeat;
+}
+.saldos_btn4{
+	width:16px;
+	height:21px;
+	margin-right:10px;
+	cursor:pointer;
+	float:right;
+	background:#FFFFFF url(/bestbanking/BB/images/bg2.gif) left -77px no-repeat;
+}
+.saldos_btn5{
+	width:11px;
+	height:11px;
+	cursor:pointer;
+	background:url(/bestbanking/BB/images/bg2.gif) left top no-repeat;
+}
+.saldos_btn6{
+	width:11px;
+	height:11px;
+	cursor:pointer;
+	background:url(/bestbanking/BB/images/bg2.gif) -15px top no-repeat;
+}
+.saldos_btn7{
+	width:24px;
+	height:22px;
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/descargar.gif) no-repeat;
+}
+.saldos_btn7:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/descargar_h.gif) no-repeat;
+}
+.saldos_btn8{
+	width:17px;
+	height:19px;
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/pdf_ico.gif) no-repeat;
+}
+.saldos_btn8:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/pdf_ico_h.gif) no-repeat;
+}
+.saldos_icono1{
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 18px;
+	width                : 28px;
+	background-position  : -254px -134px;
+}
+.saldos_icono1:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/icono1_h.gif) no-repeat;
+}
+.saldos_icono2{
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 19px;
+	width                : 20px;
+	background-position  : -252px -156px;
+}
+.saldos_icono2:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/icono2_h.gif) no-repeat;
+}
+.saldos_btnCortina2{
+	width:11px;
+	height:11px;
+	background:#f0f4f9;
+	display:none;
+}
+.tablaQueHacer{
+	font-size:11px;
+}
+.tablaQueHacer p{
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:#CCC 1px dotted;
+}
+.tablaQueHacer a{
+	text-decoration:underline;
+	font-size:11px;
+}
+.tablaQueHacer a:hover{
+	text-decoration:underline;
+	font-size:11px;
+}
+.btnExportar1{
+	width:20px;
+	height:18px;
+	background:url(/bestbanking/BB/images/hoja_flechas.gif);
+}
+.btnExportar1:hover{
+	width:20px;
+	height:18px;
+	background:url(/bestbanking/BB/images/icoExp2h.gif);
+}
+.btnExportar2{
+	width:20px;
+	height:18px;
+	background:url(/bestbanking/BB/images/icoExp1.gif);
+}
+.btnExportar2:hover{
+	width:20px;
+	height:18px;
+	background:url(/bestbanking/BB/images/icoExp1h.gif);
+}
+.btnIco1{
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 18px;
+	width                : 28px;
+	background-position  : -254px -134px;
+}
+.btnIco1:hover{
+	width:28px;
+	height:18px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/icono1_h.gif) no-repeat;
+}
+.btnIco2{
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 19px;
+	width                : 20px;
+	background-position  : -252px -156px;
+}
+.btnIco2:hover{
+	width:20px;
+	height:19px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/icono2_h.gif) no-repeat;
+}
+
+.btnIco3{
+	width:20px;
+	height:19px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/icono3.gif);
+}
+.btnIco3:hover{
+	width:20px;
+	height:19px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/icono3_h.gif) no-repeat;
+}
+/**/
+.bgF0F4F9{
+	background:#F0F4F9;
+}
+.bgF0F4F9b{
+	background:#F0F4F9;
+}
+.colorF00{
+	color:#F00!important;
+}
+.color09347a{
+	color:#09347a!important;
+}
+.color656565{
+	color:#656565!important;
+}
+.color333{
+	color:#333333!important;
+}
+.colorCCC{
+	color:#CCCCCC!important;
+}
+.coloree2e24{
+	color:#ee2e24!important;
+}
+.color666{
+	color:#666666!important;
+}
+.colorFF5C00{
+	color:#FF5C00!important;
+}
+.floatL{
+	float:left;
+}
+.floatR{
+	float:right;
+}
+.center{ text-align:center; }
+.textTemp{
+	font-size:16px;
+	font-weight:bold;
+	padding:10px;
+	height:390px;
+}
+.bordeN{
+	border:none!important;
+}
+.bgF2F2F2{
+	background:#F2F2F2;
+}
+.bgFFF{
+	background:#FFF;
+}
+.bge2f2fe{
+	background:#e2f2fe;
+}
+.bgeff8ff{
+	background:#EFF8FF;
+}
+.bg7386ad{
+	background:#7386ad;
+}
+.paddingL20{
+	padding-left:20px!important;
+}
+.paddingL25{
+	padding-left:25px!important;
+}
+.marginL28{
+	margin-left:28px!important;
+}
+.marginL32{
+	margin-left:32px!important;
+}
+.paddingL36{
+	padding-left:36px!important;
+}
+.paddingL40{
+	padding-left:40px!important;
+}
+.marginL125{
+	margin-left:125px!important;
+}
+.paddingL0{
+	padding-left:0px!important;
+}
+.paddingL10{
+	padding-left:10px;
+}
+.paddingL15{
+	padding-left:15px;
+}
+.paddingL29{
+	padding-left:29px;
+}
+.paddingR0{
+	padding-right:0px!important;
+}
+.paddingR2{
+	padding-right:2px!important;
+}
+.paddingR10{
+	padding-right:10px!important;
+}
+.paddingR15{
+	padding-right:15px!important;
+}
+.paddingR22{
+	padding-right:22px!important;
+}
+.padding0{
+	padding:0px!important;
+}
+.paddingB0{
+	padding-bottom:0px!important;
+}
+.paddingB1{
+	padding-bottom:1px!important;
+}
+.paddingB3{
+	padding-bottom:3px;
+}
+.paddingB5{
+	padding-bottom:5px;
+}
+.paddingB6{
+	padding-bottom:6px;
+}
+.paddingB10{
+	padding-bottom:10px;
+}
+.paddingB15{
+	padding-bottom:15px;
+}
+.paddingB20{
+	padding-bottom:20px;
+}
+.paddingRight10{
+	padding-right:10px;
+}
+.padding20{
+	padding:20px!important;
+}
+.paddingT6{
+	padding-top:6px;
+}
+.paddingT20{
+	padding-top:20px!important;
+}
+.paddingT25{
+	padding-top:25px!important;
+}
+.paddingT0{
+	padding-top:0px!important;
+}
+.paddingT1{
+	padding-top:1px;
+}
+.paddingT2{
+	padding-top:2px;
+}
+.paddingT3{
+	padding-top:3px;
+}
+.paddingT4{
+	padding-top:4px;
+}
+.paddingT5{
+	padding-top:5px;
+}
+.paddingT10{
+	padding-top:10px;
+}
+/*FX*/
+.paddingT15{
+	padding-top:15px;
+}
+.ancho10{
+	width:10px!important;
+	font-size:30%;
+}
+.ancho10p{
+	width:10%!important;
+}
+.ancho14p{
+	width:14%!important;
+}
+.ancho20{
+	width:20px;
+	font-size:30%;
+}
+.alto10{
+	height:10px!important;
+	font-size:30%;
+}
+.alto15{
+	height:15px!important;
+	font-size:30%;
+}
+.alto20{
+	height:20px!important;
+}
+/*FX*/
+.alto50{
+	height:50px!important;
+}
+.alto27{
+	height:27px!important;
+	font-size:30%;
+}
+.alto100{
+	height:100px;
+}
+.alto6{
+	height:4px!important;
+	font-size:20%;
+}
+.alto7{
+	height:10px!important;
+	font-size:30%;
+}
+.ancho4p{
+	width:4%;
+}
+.ancho8p{
+	width:8%;
+}
+.ancho16p{
+	width:16%;
+}
+.ancho20p{
+	width:20%;
+}
+.ancho100p{
+	width:100%;
+}
+.ancho80{
+	width:65px!important;
+}
+.ancho99p{
+	width:99%!important;
+}
+.ancho100{
+	width:100px!important;
+}
+.ancho125{
+	width:125px!important;
+}
+.ancho132{
+	width:132px!important;
+}
+.ancho140{
+	width:140px!important;
+}
+.ancho208{
+	width:208px!important;
+}
+.ancho238{
+	width:238px!important;
+}
+.ancho340{
+	width:345px!important;
+}
+.ancho375{
+	width:375px!important;
+}
+.ancho390{
+	width:390px!important;
+}
+.ancho178{
+	width:178px!important;
+}
+.ancho180{
+	width:180px!important;
+}
+.ancho190{
+	width:190px!important;
+}
+.ancho260{
+	width:260px!important;
+}
+.ancho220{
+	width:222px!important;
+}
+.ancho50{
+	width:50px!important;
+}
+.borderBDotted{
+	border-bottom:#c0c0c0 1px dotted;
+}
+.borderTDotted{
+	border-top:#c0c0c0 1px dotted;
+}
+.borderRDotted{
+	border-right:#c0c0c0 1px dotted;
+	padding-right:10px;
+	padding-left:5px;
+	padding-top:10px;
+}
+.borderRDottedN{
+	padding-right:10px;
+	padding-left:5px;
+	padding-top:10px;
+}
+.ancho30p{
+	width:30%;
+}
+.ancho33p{
+	width:33%;
+}
+.ancho25p{
+	width:25%;
+}
+.ancho15p{
+	width:15%;
+}
+.ancho538{
+	width:538px;
+}
+.ancho550{
+	width:550px;
+}
+.margin0{
+	margin:0!important;
+}
+.f20p{
+	font-size:20%!important;
+}
+/*FX*/
+.f16{
+	font-size:16px!important;
+}
+.f11{
+	color:#666666;
+	font-size:11px!important;
+}
+.f18{
+	font-size:18px!important;
+}
+.f20{
+	font-size:20px!important;
+}
+.clear{
+	clear:both;
+}
+.clearL{
+	clear:left;
+}
+.saldosBody{
+	overflow:hidden; 
+	overflow-y:hidden;
+	overflow-x:hidden;
+	margin-bottom:1px;
+}
+.margin0{
+	margin:0!important;
+}
+.margin20{
+	margin:20px!important;
+}
+.marginR4{
+	margin-right:4px!important;
+}
+.marginR10{
+	margin-right:10px!important;
+}
+.marginR20{
+	margin-right:20px!important;
+}
+.negrita{
+	font-weight:bold;
+}
+/**/
+/*ic estilos*/
+
+.titulo_tabla_at{
+	width:99%;
+	border-bottom:1px solid #c0c0c0;
+	font-weight:bold;
+	margin:16px 0 10px 0;
+	padding-bottom:2px;
+}
+.nota_at{
+	text-align:center;
+	width:auto;
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	font-size:11px;
+	color:#656565;
+}
+.nota_at a{
+	font-size:11px;
+}
+/**/
+.linkUnder {
+}
+.linkUnder a {
+	text-decoration:underline;
+}
+
+/**/
+.ancho45p{
+	width:45%!important;
+}
+.ancho50p{
+	width:50%;
+}
+.ancho100{
+	width:100px;
+}
+.ancho105{
+	width:105px;
+}
+.ancho115{
+	width:115px;
+}
+.ancho300{
+	width:300px;
+}
+.ancho195{
+	width:195px;
+}
+.ancho210{
+	width:210px!important;
+}
+.ancho250{
+	width:250px;
+}
+.ancho365{
+	width:365px;
+}
+.alto31{
+	height:31px!important;
+}
+.alto400{
+	height:400px;
+}
+.paddingL35{
+	padding-left:35px;
+}
+.paddingR35{
+	padding-right:35px;
+}
+.paddingR5{
+	padding-right:5px;
+}
+.overflow{ overflow:hidden;}
+.underline{ text-decoration:underline;}
+.saldos_bordeInfIz5_2{
+	width:10px;
+	background:url(/bestbanking/BB/images/saldos_bordeInfDe5_2.gif) left top no-repeat;
+	height:25px;
+}
+
+.saldos_bordeInfCe5_2{
+	/*background:url(/bestbanking/BB/images/bg2.gif) 0px -534px;*/
+	background:url(/bestbanking/BB/images/saldos_bordeInfCe5_2.gif) top;
+	height:23px;
+	padding-top:2px;
+	padding-left:2px;
+}
+.saldos_bordeInfCe5_2 div{
+	font-size:12px;
+	color:#FFF;
+	float:left;
+}
+.saldos_bordeInfCe5_2 a{	
+	color:#FFFFFF;
+	padding-top:4px;
+	text-decoration:underline;
+	font-size:12px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.saldos_bordeInfCe5_2 a:hover{
+	color:#FFFFFF;	
+	text-decoration:underline;
+}
+.saldos_bordeInfDe5_2{
+	width:10px;
+	background:url(/bestbanking/BB/images/saldos_bordeInfIz5_2.gif) left top no-repeat;
+	height:25px;
+	font-size:30%;
+}
+
+.nota_at_2{
+	text-align:center;
+	width:auto;
+	height:23px;
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	color:#656565;
+	font-size:11px;
+}
+.nota_at_2b{
+	text-align:center;
+	width:auto;
+	height:13px;
+	line-height:11px;
+	padding-top:10px;
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	color:#656565;
+	font-size:11px;
+}
+.nota_at_2c{
+	text-align:center;
+	width:auto;
+	background:#e2f2fe;
+	height:20px;
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	color:#656565;
+	font-size:11px;
+}
+.nota_at_2c1{
+	background:url(/bestbanking/BB/images/esquinaL.gif) left bottom no-repeat;
+	padding-bottom:5px;
+}
+.nota_at_2c2{
+	background:url(/bestbanking/BB/images/esquinaR.gif) right bottom no-repeat;
+}
+.nota_at_2c3{
+	background:url(/bestbanking/BB/images/bordeT_2.gif) bottom repeat-x;
+}
+.nota_at_2 div, .nota_at_2 span, .nota_at_2 p, .nota_at_2 a{
+	font-size:11px;
+}
+.input3{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:100px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:17px;
+}
+.input4{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:40px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:17px!important;
+}
+.inputBtn4:hover{
+	background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 20px;
+	width                : 91px;
+	background-position  : -216px -60px;
+}
+.select2{
+	border:#7e9db9 1px solid;
+	width:310px;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;
+}
+.busqueda_txt{
+	padding-left:15px;
+	color:#666666;
+	font-size:11px;
+}
+.busqueda_txt p{
+	color:#666666;
+	font-size:11px;
+}
+.busqueda_txt1{
+	color:#666666;
+	font-size:11px;
+	border-right:#ccc 1px dotted;
+}
+.busqueda_txt1 p{
+	color:#666666;
+	font-size:11px;
+}
+.paddingL4{
+	padding-left:4px;
+}
+
+.inputBtn3{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:81px;
+	background:url(/bestbanking/BB/images/btn_gris.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn4{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 20px;
+	width                : 91px;
+	background-position  : -215px -84px;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn5{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:144px;
+	background:url(/bestbanking/BB/images/btn_celeste_gde.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn5:hover{
+	background:url(/bestbanking/BB/images/btn_celeste_gde_h.gif) no-repeat;
+}
+.inputBtn6{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:144px;
+	background:url(/bestbanking/BB/images/btn_celeste_gde2.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn6:hover{
+	background:url(/bestbanking/BB/images/btn_celeste_gde2_h.gif) no-repeat;
+}
+.inputBtn7{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:250px;
+	background:url(/bestbanking/BB/images/btn_7.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn7:hover{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:250px;
+	background:url(/bestbanking/BB/images/btn_7_h.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.saldos_bordeSupIz2c_2{
+	width:10px;
+	background:url(/bestbanking/BB/images/esquinaL.gif) no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2c_2b{
+	width:10px;
+	background:url(/bestbanking/BB/images/esquinaL.gif) bottom no-repeat;
+	height:4px;
+	font-size:20%;
+}
+
+.bordeSupCe2c_2{
+	background:url(/bestbanking/BB/images/bordeT_2.gif) bottom;
+	font-size:30%!important;
+}
+.saldos_bordeInfDe2c_2{
+	width:10px;
+	background:url(/bestbanking/BB/images/esquinaR.gif) no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeInfDe2c_2b{
+	width:10px;
+	background:url(/bestbanking/BB/images/esquinaR.gif) bottom no-repeat;
+	height:4px;
+	font-size:20%;
+}
+.sel_num{ 
+	background:#ee8324;
+	color:#fff;
+	font-size:11px!important;
+}
+.saldos_bloque1_tit1_txt_2{
+	cursor:default;
+	width:450px;
+	color:#666;
+}
+.normal{ font-weight:normal;}
+
+.borderRPunteado{
+	border-right:#c0c0c0 1px dotted;
+}
+.subText11{
+	font-size:11px;
+	font-weight:normal;
+	width:100%;
+	color:#666666;
+	float:left;
+}
+.desact{
+	cursor:default;
+	color:#cccccc;
+}
+.cortinaEspec1{
+	width:100%;
+	height:30px;
+	float:left;
+	top:0px;
+	margin-top:-30px;
+	z-index:1008;
+	background:#e2f2fe;
+	cursor:default;
+}
+.cursorDefault{
+	cursor:default!important;
+}
+
+
+
+/***************************** Estilos_Nuevos.css ******************************/
+.ancho29p{
+	width:29%;
+}
+.ancho51p{
+	width:51%;
+}
+.altoLinea14{
+	line-height:14px;
+}
+.ancho50p{
+	width:50%;
+}
+.ancho60p{
+	width:60%;
+}
+.ancho70p{
+	width:70%!important;
+}
+.ancho85p{
+	width:85%;
+}
+.ancho100{
+	width:100px;
+}
+.ancho300{
+	width:300px;
+}
+.alto400{
+	height:400px;
+}
+.paddingL2{
+	padding-left:2px;
+}
+.paddingL35{
+	padding-left:35px;
+}
+.paddingR35{
+	padding-right:35px;
+}
+.marginL10{
+	margin-left:10px;
+}
+.marginT20{
+	margin-top:20px;
+}
+.marginT0{
+	margin-top:0px!important;
+}
+.marginT10{
+	margin-top:10px;
+}
+.marginL20{
+	margin-left:20px;
+}
+.padding0L20{
+	padding:0 0 0 20px!important;
+}
+.paddingL130{
+	padding-left:130px!important;
+}
+.overflow{ overflow:hidden;}
+.underline{ text-decoration:underline;}
+.f12b{ font-size:12px!important;}
+.f12{ font-size:12px!important; color:#333!important;}
+
+.nota_at_2{
+	text-align:center;
+	width:auto;
+	height:23px;
+	border-left:#7386ad 1px solid;
+	border-right:#7386ad 1px solid;
+	color:#656565;
+	font-size:11px;
+}
+
+
+.select2{
+	border:#7e9db9 1px solid;
+	width:310px;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;
+}
+
+.menos10{
+	background:url(/bestbanking/BB/images/menos10.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	cursor:pointer;
+}
+.mas10{
+	background:url(/bestbanking/BB/images/mas10.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	cursor:pointer;
+}
+.busqueda_txt{
+	padding-left:36px;
+	color:#666666;
+	font-size:11px;
+}
+.paddingL4{
+	padding-left:4px;
+}
+.saldos_bloque1_tit1_txt_2{
+	cursor:default;
+	width:450px;
+	color:#666;
+}
+.normal{ font-weight:normal;}
+
+.borderRPunteado{
+	border-right:#c0c0c0 1px dotted;
+}
+
+.saldos_bloque2_f5_2{
+	width:200px;
+	float:left;
+}
+
+.nota_at a{ text-decoration:underline;}
+.nota_at a:hover{ text-decoration:underline;}
+
+.pestanna_activa{
+	background:url(/bestbanking/BB/images/pestanna_activa.gif) no-repeat;
+	width:90px;
+	height:42px;
+	float:left;
+	position:absolute;
+}
+.pestanna_activa p{ padding:13px 0 0 0; font-weight:bold; text-align:center;}
+.pestanna{
+	background:url(/bestbanking/BB/images/pestanna.gif) no-repeat;
+	width:90px;
+	height:42px;
+	float:left;
+}
+.pestanna p{ padding:13px 0 0 0; font-weight:bold; text-align:center;}
+
+.pestanna_activa_2{
+	background:url(/bestbanking/BB/images/pestanna_activa_larga.gif) no-repeat;
+	width:271px;
+	height:42px;
+	float:left;
+}
+.pestanna_activa_2 p{ padding:13px 0 0 0; font-weight:bold; text-align:center;}
+.pestanna_2{
+	background:url(/bestbanking/BB/images/pestanna_larga.gif) no-repeat;
+	width:286px;
+	height:42px;
+	float:left;
+}
+.pestanna_2 p{ padding:13px 0 0 0; font-weight:bold; text-align:center;}
+
+.linea_pestannas{
+	background:url(/bestbanking/BB/images/bordeB.gif) repeat-x bottom;
+	height:42px;
+}
+.saldos_bloque2_f4_error_display{
+	height:15px;
+	float:left;
+	padding-top:5px;
+	padding-left:17px;
+	background:url(/bestbanking/BB/images/bg2.gif) -38px -18px no-repeat;
+	width:300px;
+}
+.saldos_bloque2_f4_error_display2{
+	height:15px;
+	float:left;
+	padding-top:5px;
+	padding-left:17px;
+	padding-bottom:20px;
+	background:url(/bestbanking/BB/images/icoError1.gif) 0px 5px no-repeat;
+	width:300px;
+}
+.saldos_bloque2_f4_error_display3{
+	height:15px;
+	float:left;
+	padding-top:5px;
+	padding-left:17px;
+	background:url(/bestbanking/BB/images/bg2.gif) -38px -18px no-repeat;
+	width:180px;
+}
+.saldos_bloque2_f4_error_display2 span{
+	color:#ee2e24;
+	font-size:11px;
+}
+.saldos_bloque2_f4_error_display3 span{
+	color:#ee2e24;
+	font-size:11px;
+}
+.saldos_bloque2_f4_error_display span{
+	color:#ee2e24;
+	font-size:11px;
+}
+
+.fecha_txt{
+	color:#666666;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:5px;
+}
+
+/*************************** PAGINACION ****************************/
+.paginacion a{
+	font-size:11px;
+}
+.paginacion .antsig{ 
+	text-decoration:underline;
+}
+.paginacion .antsig_d{ 
+	text-decoration:underline;
+	color:#cccccc;
+	cursor:default;
+}
+.paginacion .antsig:hover{ 
+	text-decoration:underline;
+}
+.paginacion .num{ 
+	padding:0 3px 0 3px;
+	border-right:1px solid #1e87dd;
+	text-decoration:none;
+}
+.paginacion .sel_num{ 
+	background:#ee8324;
+	color:#fff;
+	padding:0 5px 0 5px;
+	cursor:default;
+	margin-left:-1px;
+	text-decoration:none;
+}
+.ant_bloque{
+	background:url(/bestbanking/BB/images/ant_bloque.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	cursor:pointer;
+	text-align:center;
+}
+.ant_bloque:hover{
+	background:url(/bestbanking/BB/images/ant_bloque_h.gif) no-repeat;
+}
+.ant_bloque_d{
+	background:url(/bestbanking/BB/images/ant_bloque_dis.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	text-align:center;
+}
+
+.sig_bloque{
+	background:url(/bestbanking/BB/images/sig_bloque.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	cursor:pointer;
+	margin-left:1px;
+	text-align:center;
+}
+.sig_bloque:hover{
+	background:url(/bestbanking/BB/images/sig_bloque_h.gif) no-repeat;
+}
+.sig_bloque_d{
+	background:url(/bestbanking/BB/images/sig_bloque_dis.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	margin-left:1px;
+	text-align:center;
+}
+.displayN{ display:none;}
+
+.yearpicker{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:90px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:17px;
+	background:#ffffff;
+}
+
+.div_cuadrito{
+	background:#666;
+	width:15px;
+	height:15px;
+}
+
+/*CLASES PEPE*/
+td {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.linea_pestannas2{
+	background:url(/bestbanking/BB/images/bordeB.gif) repeat-x bottom;
+}
+.esqIzq{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 15px;
+	width                : 10px;
+	background-position  : -110px -99px;
+	font-size:30%;
+	padding:0px;
+	margin:0px;
+}
+.esqDer{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 15px;
+	width                : 10px;
+	background-position  : -132px -99px;
+	font-size:30%;
+	padding:0px;
+	margin:0px;
+}
+.btn_cerrarImp{
+	width:21px;
+	height:21px;
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/btn_cerrar.gif) no-repeat;
+}
+
+@media print{
+	.noButton{ display: none;}
+	.showinPrint{ display: block;}
+	.toWorkArea
+	{
+		display: block!important;
+		width:100%;
+		overflow:hidden;
+		clear:both;
+	}
+	
+}
+.linkdisabled{
+       color:#A0A0A0;
+}
+.linkdisabled:hover{
+       color:#A0A0A0;
+}
+.saldos_bloque2_f4_error_CUENTA{
+	color:#ee2e24!important;
+	float:left;
+	padding-top:5px;
+	padding-left:125px;
+	width:71%;
+}
+/* clases impresion */
+.cabeceraSup{
+	min-width:590px;
+	margin-left:auto;
+	margin-right:auto;
+	height:67px;
+	background:none;
+	width:auto;
+}
+.logoPrinc{
+	background:url(/bestbanking/BB/images/bg1.gif) left -607px no-repeat;
+	float:left;
+	margin-top:10px;
+	width:190px;
+	height:45px;
+	z-index:1;
+}
+.datosCabecera{
+	float:right;
+	height:65px;
+	width:470px;
+}
+.ligasCabecera{
+	background:none;
+	float:left;
+	height:15px;
+	color:#CC0000;
+	font-size:11px;
+	padding-bottom:10px;
+	padding-top:10px;
+	text-align:right;
+	width:100%;
+}
+.ligasCabecera a{
+	color:#666;
+	font-size:11px;
+}
+.ligasCabecera a:hover{
+	color:#202020;
+	text-decoration:underline;
+}
+.ligasCabecera span{
+	color:#666;
+	font-size:11px;
+}
+
+.logo2Cabecera{
+	background:url(/bestbanking/BB/images/bg1.gif) left -652px no-repeat;
+	float:right;
+	height:30px;
+	width:130px;
+}
+/* footer impresion */
+.contenedorPie1{
+	min-width:590px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#efefef;
+	height:18px;
+	padding-top:19px;
+	border-bottom:#e5e5e5 1px solid;
+	width:auto;
+}
+.contenedorPie2{
+	min-width:925px;
+	margin-left:auto;
+	margin-right:auto;
+	color:#efefef;
+	height:35px;
+	padding-top:0px;
+	width:auto;
+}
+.contenedorPie2_ligas1{
+	float:left;
+	height:25px;
+	padding-top:10px;
+	color:#1e87dd;
+}
+.contenedorPie2_ligas1 a{
+	color:#1e87dd;
+	font-size:11px;
+	text-decoration:underline;
+}
+.contenedorPie2_ligas1 a:hover{
+	color:#09347a;
+}
+.contenedorPie2_ligas2{
+	float:right;
+	height:25px;
+	padding-top:10px;
+	padding-left:25px;
+	color:#1e87dd;
+}
+.contenedorPie2_ligas2 a{
+	font-size:11px;
+	color:#1e87dd;
+	text-decoration:underline;
+}
+.contenedorPie2_ligas3{
+	float:right;
+	height:25px;
+	padding-top:10px;
+	color:#1e87dd;
+}
+.contenedorPie2_ligas3 a{
+	font-size:11px;
+	color:#1e87dd;
+	text-decoration:underline;
+}
+.contenedorPie2_ligas3 a:hover{
+	color:#09347a
+}
+/* FIN footer impresion */
+.cortiContPrincipal{
+	background:#FFF;
+	padding:0px;
+	display:none;
+	float:left;
+	overflow:hidden;
+	height:300px;
+	margin:0px;
+	font-size:10%;
+	margin-top:-200px;
+	width:100%;
+	z-index:3000;
+	position:relative;
+}
+
+/* fin clases impresion */
+
+
+
+
+
+/*************** fin clases pepe************************/
+
+/*Mensaje rojo y ventana exportacion*/
+.saldos_bordeSupIz2c_r{
+	width:20px;
+	height:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_i_r.gif) bottom no-repeat;
+}
+.saldos_bordeSupDe2b_r{
+	width:20px;
+	height:20px;
+	background:url(/bestbanking/BB/images/esq_top_i_r.gif) no-repeat;
+}
+.saldos_bordeInfDe2c_r{
+	width:20px;
+	height:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_d_r.gif) bottom no-repeat;
+}
+.saldos_bordeSupIz2b_r{
+	width:20px;
+	height:20px;
+	background:url(/bestbanking/BB/images/esq_top_d_r.gif) no-repeat;
+}
+.bordeSupCe2c_r{
+	background:#fae5e5;
+	border-bottom:1px solid #cc0000;
+}
+.bordeSupCe2b_r{
+	background:#fae5e5;
+	border-top:1px solid #cc0000;
+}
+.bordesIz1_r{
+	background:#fae5e5;
+	border-left:1px solid #cc0000;
+}
+.bordesDe1_r{
+	background:#fae5e5;
+	border-right:1px solid #cc0000;
+}
+.saldos_bordeSupIz2b_2{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaTL.gif) no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2b_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_d_v.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeSupIz2c_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_i_v.gif) bottom no-repeat;
+	height:20px;
+}
+
+.saldos_bordeSupDe2b_2{
+	width:20px;
+	padding:0px;
+	margin:0px;
+	background:url(/bestbanking/BB/images/esquinaTR.gif) no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeSupDe2b_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_i_v.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeInfDe2c_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_d_v.gif) bottom no-repeat;
+	height:20px;
+}
+
+.punteado {border-bottom:#CCC 1px dotted;}
+.bgfae5e5{
+	background:#fae5e5;
+}
+.f13{ font-size:13px!important;}
+
+/*sprint6*/
+.tablaDetalles{
+	width:100%;
+	padding:0;
+	border:0;
+	border-spacing: 0;
+	display:inline-block;
+}
+
+.tablaLinks{
+	padding:0;
+	border:0;
+	border-spacing: 0;
+	display:inline-block;
+}
+
+.tablaDetallesIE{
+	width:100%;
+	padding:0;
+	border:0;
+	border-spacing: 0;
+	display:inline;
+}
+
+.tablaLinksIE{
+	padding:0;
+	border:0;
+	border-spacing: 0;
+	display:inline;
+}
+
+.displaydiv{
+	display:inline-block;
+}
+
+.ancho150p{
+	width:150px;
+	text-align:right;
+}
+.grupoOcultos{
+	display:none;
+}
+
+.aligntextright{
+	text-align:right;
+}
+
+.saldos_bloque2_f4350{
+	width:350px;
+	float:left;
+}
+
+.saldos_bloque2_f4_inp2250px{
+	float:left;
+	width:250px;
+}
+
+.ancho11p{
+	width:11px;
+}
+
+/**** Nuevos estilos Pago de impuestos sprint 6 bnp ****/
+.imagenApplet
+{
+
+	background:url(/bestbanking/BB/images/applet.png) center no-repeat ;
+
+	float:left;
+	
+	width:720px;
+	height:390px;
+	z-index:1;	
+}
+.sin_border_bottom
+{
+	border-bottom:0px !important;
+}
+.borderRSolid{
+	border-right:#c0c0c0 1px  solid;
+	padding-right:10px;
+	padding-left:5px;
+	padding-top:6px;
+}
+.ancho95p{
+	width:95%!important;
+}
+.ancho89p{
+	width:89%!important;
+}
+.ancho80p{
+	width:80%!important;
+}
+
+.ancho130{
+	width:130px!important;
+}
+.ancho86_3p
+{
+	width:85.3%!important;
+}
+.paddingL68{
+	padding-left:68px!important;
+
+}
+.ancho200
+{
+	width:180px!important;
+}
+.ancho120
+{
+	width:115px!important;
+}
+.ancho98_3p{
+	width:98.3%!important;
+}
+.ancho97_8p{
+	width:97.8%!important;
+}
+.ancho96_2p{
+	width:96.2%!important;
+}
+.colorCC0000{
+	color:#cc0000!important;
+}
+.select3
+{
+	border:#7e9db9 1px solid;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;	
+	width:100%;
+	
+}
+.f13
+{
+	font-size:13px!important;
+}
+.paddingT12
+{
+	padding-top:12px!important;
+}
+.paddingB12
+{
+	padding-bottom:12px!important;
+}
+
+/*************Clases Sprint5*********************/
+.tablaSaldos2_bordeL{
+	border-left:#cdcecf 1px solid!important;
+	
+}
+.bordeSupCe2cS5{
+	border-bottom: 1px solid #7487ae;
+}
+.bordeSupCe2bS5{
+	border-top: 1px solid #7487ae;
+	width:100%;
+}
+.saldos_bordeSupIz2bs5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq1S5.png) right top no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2cS5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq3S5.png) right bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeSupDe2bS5{
+	width:20px;
+	padding:0px;
+	margin:0px;
+	background:url(/bestbanking/BB/images/esq2S5.png) right top no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeInfDe2cS5{
+	width:20px;
+	padding:0px;
+	margin:0px;
+	background:url(/bestbanking/BB/images/esq4S5.png) left bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.f11S5{
+	font-size:11px!important;
+}
+.saldos_bordeSupIz2c_2S5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaLS5.gif) no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.bordeSupCe2c_2S5{
+	background:#e2f2fe;
+	border-bottom: 1px solid #7487ae;
+}
+.saldos_bordeInfDe2c_2S5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaRS5.gif) no-repeat;
+	height:20px;
+	font-size:100%;
+}
+.bordeSupCe2c_2SB{
+	background:#e2f2fe;
+}
+.saldos_bordeSupIz2b_VS5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_d_vS5.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeSupIz2c_VS5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_i_vS5.gif) bottom no-repeat;
+	height:20px;
+}
+.saldos_bordeSupDe2b_VS5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_i_vS5.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeInfDe2c_VS5{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_d_vS5.gif) bottom no-repeat;
+	height:20px;
+}
+/*****  fin clases extra S5 ***/
+
+
+/**en sprint 6 pagos**/
+.tablaSaldos_filaG1_L{
+	background:#f4f4f4;
+	border-top:#FFF 2px solid;
+	padding-left:0px!important;
+	border-bottom:#FFF 15px solid;
+}
+.ancho40p {
+	width:40%;
+}
+.ancho55p {
+	width:55%;
+}
+
+
+
+/*** Estilos usados en correcciones de bne sprint 6 ****/
+/* Estilo identico a tablaSaldos 3 pero tiene padding R5 ***/
+.ancho170 {
+	width:170px;
+}
+.tablaSaldos3_R5{
+}
+.tablaSaldos3_R5 td{
+	padding:5px 5px 5px 10px;
+	color:#666;
+	font-size:11px;
+	line-height:12px;
+}
+.tablaSaldos3_R5 span{
+	font-weight:bold;
+	color:#333;
+	font-size:11px;
+}
+.tablaSaldos3_R5 p{
+	color:#333;
+	font-weight:bold;
+	font-size:12px;
+}
+.tablaSaldos3_R5 a{
+	font-size:11px;
+	text-decoration:underline;
+}
+/* falto copiarlo en homologaci*/
+.bgedf5e8{
+	background:#edf5e8;
+}
+.bgris{
+	background:#f1f1f1;
+}
+/*** Estilos anteriores para cajas azules ****/
+.saldos_bordeSupIz2c_2_a{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaL.gif) bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.bordeSupCe2c_2{
+	background:#e2f2fe;
+	border-bottom: 1px solid #7487ae;
+}
+.bordeSupCe2c_2_a{
+	background:#e2f2fe;
+	border-bottom: 1px solid #7487ae;
+	width:100%;
+	text-align:center;
+}
+.saldos_bordeInfDe2c_2_a{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaR.gif) bottom no-repeat;
+	height:20px;
+	font-size:30%;
+	
+}
+
+.saldos_bordeSupIz2b_a{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 20px;
+	width                : 20px;
+	background-position  : -66px -99px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2c_a{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 20px;
+	width                : 20px;
+	background-position  : -110px -99px;
+	font-size:30%;
+}
+.saldos_bordeSupDe2d_a{
+	width:20px;
+	padding:0px;
+	margin:0px;
+	height:25px;
+	background:url(/bestbanking/BB/images/bg2.gif) left -279px no-repeat;
+	float:right;
+}
+.saldos_bordeSupDe2b_a{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 20px;
+	width                : 20px;
+	background-position  : -88px -99px;
+	padding:0px;
+	margin:0px;
+	font-size:30%;
+}
+.bordeSupCe2b_a{
+	border-top: 1px solid #7487ae;
+	width:100%;
+}
+.bordeSupCe2c_a{
+	border-bottom: 1px solid #7487ae;
+}
+.saldos_bordeInfDe2c_a{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 20px;
+	width                : 20px;
+	background-position  : -132px -99px;
+	font-size:30%;
+	padding:0px;
+	margin:0px;
+}
+.titulo_tabla_at_a{
+	width:100%;
+	border-bottom:1px solid #c0c0c0;
+	font-weight:bold;
+	margin:20px 0 10px 0;
+	padding-bottom:2px;
+	color:#333;
+}
+.titulo_tabla_at_b{
+	width:100%;
+	border-bottom:1px solid #c0c0c0;
+	padding-bottom:20px;
+}
+/**** Fin de estilos anteriores para cajas azules ****/
+
+.paddingR20
+{
+	padding-right:20px!important;
+}
+//**Cambio estilo mensaje Error*/
+.saldos_bloque2_f4_error_v2{
+	height:15px;
+	float:left;
+	padding-top:5px;
+	display:none;
+	width:300px;
+}
+.saldos_bloque2_f4_error_v2 span{
+	color:#ee2e24;
+	background:url(/bestbanking/BB/images/bg2.gif) -38px -23px no-repeat;
+	padding-left:17px;
+	display:none;
+	font-size:11px;
+}
+
+/***************************************************/
+/***************disegno rafagas**********************/
+/***************************************************/
+/** estilo para links **/
+.txt_link a:link { 
+	color:#1e87dd; 
+	text-decoration: underline;
+	font-size:11px;
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif; 
+}
+.txt_link a:hover {
+	color:#09347a;
+	text-decoration:underline;
+	font-size:11px;
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif; 
+}
+.txt_link a:visited { 
+	color:#1e87dd; 
+	text-decoration: underline;
+	font-size:11px;
+	font:Arial, Helvetica, sans-serif;
+	font-family:Arial, Helvetica, sans-serif; 
+}
+/**fin**/
+/**estilo crado para fin de tabla  desplegable**/
+.tablaSaldos_filaG1_L_fin{
+	background:#f4f4f4;
+	border-top:#FFF 2px solid;
+	padding-left:0px!important;
+	border-bottom:#FFF 1px solid;
+}
+/**fin de estilo crado para fin de tabla  desplegable**/
+/**estilos para BNE Rafagas**/
+.inputBtn4_des{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/btn_rojo_des.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn5_des{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:144px;
+	border:0px;
+	cursor:pointer;
+}
+.ancho12 {
+	width:12px;
+}
+.saldos_btn9_up{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) top no-repeat;
+	height               : 9px;
+	width                : 11px;
+	background-position  : -352px -15px;
+	cursor:pointer;
+}
+.saldos_btn9_down{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) bottom no-repeat;
+	height               : 9px;
+	width                : 11px;
+	background-position  : -336px -15px;
+	cursor:pointer;
+}
+.saldos_btn9_up_over{
+	width:11px;
+	height:9px;
+	cursor:pointer;
+	background:url(/bestbanking/BB/images/select_up_over.gif) top no-repeat;
+}
+.saldos_btn9_down_over{
+	width:11px;
+	height:9px;
+	cursor:pointer;
+	background:url(/bestbanking/BB/images/select_down_over.gif) bottom no-repeat;
+}
+.color1e87dd{
+	color:#1387dd!important;
+}
+
+.saldos_icono3{
+	width:20px;
+	height:19px;
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+	background:#FFFFFF url(/bestbanking/BB/images/icono3.gif) no-repeat;
+}
+.saldos_icono3:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/icono3_h.gif) no-repeat;
+}
+.saldos_btn5_n{
+	width:11px;
+	height:11px;
+	cursor:pointer;
+}
+.paddingB2{
+	padding-bottom:2px!important;
+}
+.paddingT23{
+	padding-top:23px!important;
+}
+.marginB0{
+	margin-bottom:0px!important;
+}
+.tablaSaldos_filaG1_L_n{
+	background:#ffedd9;
+	border-top:#FFF 2px solid;
+	padding-left:0px!important;
+	border-bottom:#FFF 15px solid;
+}
+.tablaSaldos_filaG1_L_r{
+	background:#feeded;
+	border-top:#FFF 2px solid;
+	padding-left:0px!important;
+	border-bottom:#FFF 15px solid;
+}
+.colorff8300{
+	color:#ff8300!important;
+}
+.marginL15{
+	margin-left:15px;
+}
+/**fin de estilos para BNE Rafagas**/
+
+.inputBtn2_des{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:105px;
+	background:url(/bestbanking/BB/images/btn2_des.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.ancho11p{
+	width:11%!important;
+}
+/***************************************************/
+/***************fin dise�o rafagas**********************/
+/***************************************************/
+
+.ancho28p{
+	width:28%!important;
+}
+
+
+
+/************* Estilos copiados de Login digitem ************/
+.borderB_E6E6E6{
+	border-bottom:1px solid #E6E6E6;
+}
+.marginAuto{margin-left:auto;margin-right:auto;}
+.f14{
+	font-size:14px!important;
+}
+.marginT5{
+	margin-top:5px!important;
+}
+
+/**************** Fin de estilos de login digitem***********/
+.saldos_bloque3_Historial{
+	padding-top:20px;
+}
+
+/***********estilos del mando modales***********//
+#mensajeError_contenido {
+	background-color:#ffffff;
+	padding-top:5px;
+	display:none;
+	padding-bottom:5px;
+	overflow:hidden;
+	padding-left:0px;
+	padding-right:0px;
+	text-shadow:0 1px 0 #f4f4f4;
+}
+.ventanaEmergente{
+	width:100%;
+}
+.mensajeError_encabezado {
+	width:100%;
+	overflow:hidden;
+	background:none;
+	height:15px;
+}
+.mensajeError_encabezadoBT {
+	font-size:30%;
+	background:#fff;
+}
+.mensajeError_encabezadoCT {
+	height:14px;
+	width:100%;
+	font-size:30%;
+	border-top:#7487ae 1px solid;
+	background:#fff;
+}
+.mensajeError_encabezadoBB {
+	height:14px;
+	width:100%;
+	font-size:30%;
+	border-bottom:#7487ae 1px solid;
+	background:#fff;
+}
+.mensajeError_encabezadoEsq1 {
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 100%;
+	width                : 20px;
+	background-position  : -66px -99px;
+	float:left;
+	font-size:30%;
+	overflow:hidden;
+}
+.mensajeError_encabezadoBordeT {
+	float:left;
+	height:14px;
+	font-size:30%;
+	border-top:#7487ae 1px solid;
+	overflow:hidden;
+	background:#FFF;
+}
+.mensajeError_encabezadoBordeB {
+	float:left;
+	height:14px;
+	width:630px;
+	font-size:30%;
+	border-bottom:#7487ae 1px solid;
+	overflow:hidden;
+	background:#FFF;
+}
+.mensajeError_encabezadoEsq2 {
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 15px;
+	width                : 20px;
+	background-position  : -88px -99px;
+	float:left;
+	font-size:30%;
+}
+.mensajeError_encabezadoEsq3{
+	float:left;
+	height               : 15px;
+	width                : 20px;
+	font-size:30%;
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	background-position  : -110px -104px;
+	overflow:hidden;
+}
+.mensajeError_encabezadoEsq4{
+	float:left;
+	height               : 15px;
+	width                : 20px;
+	font-size:30%;
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	background-position  : -132px -104px;
+	overflow:hidden;
+}
+.mensajeError_contenidoIn {
+	width:640px;
+	background:#ffffff;
+}
+.mensajeError_contenidoInb {
+	width:270px;
+	background:#ffffff;
+}
+.mensajeError_Fila1{
+	height:25px;
+	border-bottom:#d6d6d6 1px solid;
+}
+.mensajeError_Fila2{
+	font-size:12px;
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:11px;
+}
+.mensajeError_Fila2 a{
+	font-size:11px;
+	text-decoration:underline;
+}
+.mensajeError_Fila3{
+	font-size:12px;
+	padding-top:10px;
+	height:20px;
+	font-size:11px;
+}
+.mensajeError_titulo1{
+	color:#ee2e24;
+	font-size:16px;
+	font-weight:bold;
+	padding-left:25px;
+	float:left;
+	background:url(/bestbanking/BB/images/bg2.gif) -32px top no-repeat;
+}
+.mensaje_btn1{
+	height:25px;
+	float:right;
+	width:28px;
+}
+.mensajeError_txt1{
+	color:#666666;
+	font-size:14px;
+	font-weight:bold;
+	float:left;
+	padding-top:5px;
+}
+.mensajeError_txt2{
+	color:#000;
+	font-size:14px;
+	font-weight:bolder;
+	float:left;
+	padding-top:5px;
+}
+.mensajeError_Fila1_3{
+	height:25px;
+	border-bottom:#d6d6d6 1px solid;
+}
+.mensajeError_titulo2{
+	color:#ee2e24;
+	padding-left:20px;
+	background:url(/bestbanking/BB/images/icoError2.gif) bottom left no-repeat;
+}
+.mensajeError_titulo3{
+	padding-top:2px;
+	color:#ee2e24;
+	font-size:14px;
+	font-weight:bold;
+	padding-left:25px;
+	float:left;
+}
+.mensajeError_message{
+	font-size:11px;
+}
+.paddingT15{
+	padding-top:15px!important;
+}
+.marginL0{
+	margin-left:0px!important;
+}
+.ancho620{
+	width:620px!important;
+
+}
+.ancho580{
+	width:580px!important;
+}
+.paddingL30{
+	padding-left:30px!important;
+}
+.borderBSolid{
+	border-bottom:1px solid #c0c0c0;
+}
+.paddingB7{
+	padding-bottom:7px!important;
+}
+.ancho720{
+	width:720px!important;
+}
+.ancho680{
+	width:680px!important;
+}
+.ancho437{
+	width:437px!important;
+}
+.ancho57{
+	width:57px!important;
+}
+.ancho725{
+	width:725px!important;
+}
+.ancho485{
+	width:485px!important;
+}
+.ancho450{
+	width:450px!important;
+}
+.ancho58{
+	width:58px!important;
+}
+.ancho128{
+	width:128px!important;
+}
+.paddingT17{
+	padding-top:17px!important;
+}
+.ancho283{
+	width:283px!important;
+}
+.paddingB4{
+	padding-bottom:4px!important;
+}
+.ancho295{
+	width:295px!important;
+}
+.marginT17{
+	margin-top:17px!important;
+}
+.ancho253{
+	width:253px!important;
+}
+.ancho740{
+	width:740px!important;
+}
+.scroll-y{
+    overflow-y:auto;
+    overflow-y:scroll;
+}
+.ancho59p{
+	width:59%!important;
+}
+.ancho41p{
+	width:41%!important;
+}
+/**estilos nuevos para BNE Chequeras **/
+.paddingL24{
+	padding-left:24px!important;
+}
+.bgfeeded {
+	background-color:#feeded;
+	}
+.color000{
+	color:#000000!important;
+}
+.paddingL5{
+	padding-left:5px!important;
+}
+/**fin de estilos nuevos para chequeras**/
+
+/**** Estilos nuevos para cuentas propias ***/
+.marginT12{
+	margin-top:12px!important;
+}
+.linkRojo{}
+.linkRojo a {color:#CC0000;}
+.linkRojo a:hover {color:#09347a;}
+.ancho420{width:420px!important;}
+.paddingL3{
+	padding-left:3px!important;
+}
+.paddingL27{
+	padding-left:27px!important;
+}
+/**** Fin de estilos nuevos para cuentas propias ****/
+/**** Inicio de estilos nuevos para Historial de Banca ****/
+.saldos_bloque2_f4_inp_Historial{
+	float:left;
+	width:200px;
+}
+.saldos_bloque2_f4_Historial{
+	width:210px;
+	float:left;
+}
+/**** Fin de estilos nuevos para Historial de Banca ****/
+/******ULTIMOS RAFAGAS**********/
+.ancho600{
+	width:600px!important;
+}
+.ancho150{
+	width:150px!important;
+}
+.paddingT8{
+	padding-top:8px!important;
+}
+.bgE4E4E4{
+	background:#E4E4E4 !important;
+}
+.ancho19p{
+	width:19%!important;
+}
+.input5{
+	margin:0px;
+	padding:0px;
+	border:#ee2e24 1px solid;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:17px;
+}
+/****************/
+/**Inverisones***/
+.marginT11{
+	margin-top:11px!important;
+}
+.f11n{
+	font-size:11px;
+	color:#000;
+}
+.ancho7p{width:7%!important;}
+/*****/
+/******ADMINISTRACION**********/
+
+.paddingT15{
+	padding-top:15px!important;
+}
+.ancho128{
+	width:128px !important;
+}
+.ancho283{
+	width:283px!important;
+}
+.color38B935{
+	color:#38B935!important;
+}
+.bgE4E4E4{
+	background:#E4E4E4 !important;
+}
+.ancho66p{
+	width:66%;
+}
+.colorFFF{
+	color:#FFFFFF!important;
+}
+.ancho12p{
+	width:12%;
+}
+.ancho17p{
+	width:17%;
+}
+/* Nomina */
+.ancho18p{
+	width:18%;
+}
+/*Nomina*/
+.ancho19p{
+	width:19%;
+}
+
+.colorEFEFEF{
+	color:#efefef!important;
+}
+.anchoAuto{
+	width:auto;!important;
+}
+/****************/
+/**** Inicio de estilos Error Sprint 4 ****/
+.saldos_bloque2_f4_inp_Historial{
+	float:left;
+	width:200px;
+}
+
+.saldos_bloque2_f4_error_display_blanco{
+   display:none;
+   height:auto;
+   padding-top:5px;
+   padding-left:17px;
+   background:url(/bestbanking/BB/images/bg2.gif) -38px -18px no-repeat;
+   width:100%;
+   color:#ee2e24;
+   font-size:11px;
+}
+/**** Fin de estilos Error Sprint 4 ****/
+/**** Inicio de estilos nuevos para pagos y consulta ISSSTE ****/
+.saldos_bordeInfDe2c_2issste{
+	width:10px;
+	background:url(/bestbanking/BB/images/esquinaRissste.gif) right bottom no-repeat;
+}
+.saldos_bordeSupIz2c_2issste{
+	width:10px;
+	background:url(/bestbanking/BB/images/esquinaLissste.gif) left bottom no-repeat;
+}
+/**** Fin de estilos nuevos para Pagos y consulta ISSSTE ****/
+/**** Inicio de estilos nuevos para Pago SIPARE ****/
+.saldos_bordeInfDe2c_2sipare{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaRissste.gif) center bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2c_2sipare{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaLissste.gif) center bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+/**** Fin de estilos nuevos para Pago SIPARE ****/
+/*estilos faltantes s6 y s7*/
+.saldos_bloque2_f4_s6{
+	float:left;
+	width:200px;
+}
+
+.saldos_bordeSupIz2c_2_s6{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaL.gif) bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.bordeSupCe2c_2_s6{
+	background:#e2f2fe;
+	border-bottom: 1px solid #7487ae;
+	width:100%;
+	text-align:center;
+}
+.saldos_bordeInfDe2c_2_s6{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaR.gif) bottom no-repeat;
+	height:20px;
+	font-size:30%;
+	
+}
+.saldos_bordeSupDe2b_s6{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 20px;
+	width                : 20px;
+	background-position  : -88px -99px;
+	padding:0px;
+	margin:0px;
+	font-size:30%;
+}
+.saldos_bordeSupIz2b_s6{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq1.png) right top no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.bordeSupCe2b_s6{
+	border-top: 1px solid #7487ae;
+	width:100%;
+}
+.paddingL50{
+	padding-left:55px!important;
+}
+.ancho25{
+	width:25px!important;
+}
+.ancho540{width:540px!important;}
+
+.ancho336{width:336px!important;}
+
+.ancho343{width:343px!important;}
+
+.ancho355{width:355px!important;}
+
+.ancho528{width:528px!important;}
+
+.alto500{height:500px!important;}
+/*Nomina*/
+.alto560{height:560px!important;}
+/*Nomina*/
+.alto530{height:530px!important;}
+
+.ancho175{width:175px!important;}
+
+.ancho163{width:163px!important;}
+
+.ancho825{width:825px!important;}
+
+.ancho49{width:49px!important;}
+
+.ancho353{width:353px!important;}
+
+.ancho425{width:425px!important;}
+
+.bgE5E5E5{background:#E5E5E5!important;}
+
+.ancho460{width:460px!important;}
+
+.paddingB17{ padding-bottom:17px!important;}
+
+.paddingT7{ padding-top:7px!important;}
+/****fin estilos faltantes s6 y s7***/
+
+
+/******** AUTOCOMPLETE  s6********/
+
+.suggestion_list
+	{
+	background: white;
+	border:#7e9db9 1px solid;
+	width:780px;
+	height:80px;
+	overflow:auto;
+	}
+	
+.suggestion_list ul
+	{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width:773px;
+	font-size:11;
+	}
+	
+.suggestion_list a
+	{
+	text-decoration: none;
+	color: #666;
+	font-size:11;
+	}
+	
+.suggestion_list .selected
+	{
+	background: #F0F4F9;
+	font-size:11;
+	color: #666;
+	}
+	
+.suggestion_list .selected a
+	{
+	color: #666;
+	font-size:11;
+	}
+
+#autosuggest
+	{
+	display: none;
+	}
+	
+
+	.busqueda_avanzada
+	{
+	height:180px;
+	}
+	
+	
+	*clase para el scroll de busqueda avanzada Sprint 6*/
+
+.busqueda_avanzada
+	{
+	height:180px;
+	}
+
+/* clase para el tama�o del text del autocomplete*/
+.input_autocomplete{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:170px;
+	padding-left:5px;
+	padding-right:5px;
+	padding-top:2px;
+	color:#666;
+	font-size:11px;
+	height:17px;
+}
+
+.ancho780{
+	width:780px!important;
+}
+
+/*clase para el boton de pag de pago de servicios*/
+.floatRBtnAceptar{
+	float:right;
+}
+
+.BtnAceptar{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:105px;
+	background:url(/bestbanking/BB/images/bg1.gif) no-repeat left -852px;
+	border:0px;
+	cursor:pointer;
+}
+
+.inputBtn2:hover{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:105px;
+	background:url(/bestbanking/BB/images/bg1.gif) no-repeat right -852px;
+	border:0px;
+	cursor:pointer;
+}
+
+/*clase para el text de referencia de importe*/
+.input_ref_importe{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	width:130px;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:11px;
+	padding-top:2px;
+	color:#666;
+	height:17px;
+}
+
+/*clase para el div de opciones adicionales*/
+.bordesIz1_adicionales{
+	border-left:1px solid #7487ae;
+	background:#e2f2fe;
+}
+
+.bordesDe1_adicionales{
+	border-right:1px solid #7487ae;
+	background:#e2f2fe;
+}
+
+.saldos_bordeSupIz2c_adicionales{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaL2.gif) bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+
+.saldos_bordeInfDe2c_adicionales{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaR2.gif) bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+
+.bordeSupCe2c_adicionales{
+	background:#e2f2fe;
+	border-bottom: 1px solid #7487ae;
+	width:100%;
+	text-align:center;
+}
+
+/*clases de errores pagos servicios*/
+.pagosS_bloque2_f4_error{
+	height:15px;
+	float:left;
+	padding-top:5px;
+	display:none;
+	width:100%;
+}
+.pagosS_bloque2_f4_error div{
+	color:#ee2e24;
+	background:url(/bestbanking/BB/images/bg2.gif) -38px -23px no-repeat;
+	padding-left:17px;
+	display:none;
+	font-size:11px;
+}
+
+
+/********* Estilos para tooltip ***********/
+#tooltip{
+      position:absolute;
+      top:0;
+      left:0;
+      z-index:99999999;
+	  display:none;
+}
+
+.tooltipC{
+      background:#ffffff;
+      font-weight:bold;
+      font-size:11px;
+      color:#1e87dd;
+}
+.tooltipT{
+      border-top:2px solid #09347a;
+      background:#FFFFFF;
+}
+
+.tooltipB{
+      border-bottom:2px solid #09347a;
+      background:#FFFFFF;
+}
+.tooltipL{
+      border-left:2px solid #09347a;
+      background:#FFFFFF;
+}
+.tooltipR{
+      border-right:2px solid #09347a;
+      background:#FFFFFF;
+}
+.tooltipTL{
+	 background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;	
+     height               : 10px;
+	 width                : 10px;
+	 background-position  : -247px -30px;
+}
+.tooltipTR{
+     background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;	
+     height               : 10px;
+	 width                : 10px;
+	 background-position  : -257px -30px;
+}
+
+.tooltipBL{
+     background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;	
+     height               : 10px;
+	 width                : 10px;
+	 background-position  : -247px -38px;
+}
+
+.tooltipBR{
+     background:url(/bestbanking/BB/images/css_spritebb.gif) bottom right no-repeat;	
+     height               : 10px;
+	 width                : 10px;
+	 background-position  : -257px -38px;
+}
+
+.tooltipBLS{
+     background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;	
+     height               : 10px;
+	 width                : 10px;
+	 background-position  : -247px -40px;
+}
+
+.tooltipBRS{
+     background:url(/bestbanking/BB/images/css_spritebb.gif) bottom right no-repeat;	
+     height               : 10px;
+	 width                : 10px;
+	 background-position  : -257px -40px;
+}
+
+.tooltipP{
+	  background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+      height               : 10px;
+	  width                : 15px;
+	  background-position  : -302px -174px;
+	  float:right;
+      position:relative;
+      top:10px;
+}
+.tooltipP_2{
+      background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+      height               : 10px;
+	  width                : 15px;
+	  background-position  : -329px -29px;
+      float:right;
+      position:relative;
+      top:-10px;
+}
+.paddingB8{padding-bottom:8px;}
+
+.paddingB30{padding-bottom:30px;}
+
+#tooltip-indicaciones{
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:99999999;
+	display:none;
+}
+.tooltipT2{
+	background:#09347a;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:11px;
+}
+.tooltipTL2{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 24px;
+	width                : 10px;
+	background-position  : -277px -30px;
+}
+.tooltipTR2{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 24px;
+	width                : 10px;
+	background-position  : -287px -30px;
+}
+.tooltipC2{
+	background:#ffffff;
+	font-size:11px;
+	color:#1e87dd;
+}
+.tooltipC2 a{
+	font-size:11px;
+	text-decoration:underline;
+}
+.tooltipC2 a:hover{
+	font-size:11px;
+	text-decoration:underline;
+}
+
+.pointer{ cursor:pointer;}
+/***** Fin de estilos para tooltip ********/
+
+/******************LOGIN*************/
+/* Estructura Marco contenedor: Contiene todo el HTML */
+.contenedor{
+	padding-left:35px;
+	padding-right:35px;
+	min-width:925px;
+	margin-left:auto;
+	margin-right:auto;
+	width:auto;
+}
+
+#Logo_Banamex{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 41px;
+	width                : 184px;
+	background-position  : -3px -1px;
+	float:left;
+}
+#Logo_Bancanet{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 30px;
+	width                : 89px;
+	background-position  : -2px -43px;
+	margin-top:5px;
+	float:right;
+	clear:both;
+}
+
+/* Estilos Generales */
+.floatL{float:left;}
+.floatR{float:right;}
+.clear{clear:both;}
+.overflow{overflow:hidden;}
+.scroll_Y{overflow-y:auto;overflow-y:scroll;}
+
+.display{display:block;}
+.no_display{display:none;}
+
+/* Estilos de Texto */
+.f11{font-size:11px;}
+.f12{font-size:12px!important;}
+.f13{font-size:13px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f20{font-size:20px;}
+.f24{font-size:24px;}
+
+.colorE6E6E6{color:#E6E6E6;}
+.color333333{color:#333333;}
+.coloree2e24{color:#ee2e24;}
+.color1e87dd{color:#1e87dd;}
+.colorFFFFFF{color:#FFFFFF;}
+.color000000{color:#000000;}
+
+.textC{text-align:center;}
+.textR{text-align:right;}
+.negrita{font-weight:bold;}
+.italica{font-style:italic;}
+
+/* Anchos */
+.anchoAuto{width:auto!important;}
+
+.ancho0p{width:0%!important;}
+.ancho33p{width:33%;}
+.ancho40p{width:40%;}
+.ancho50p{width:50%;}
+.ancho85p{width:85%;}
+.ancho90p{width:90%;}
+.ancho100p{width:100%!important;}
+
+.ancho8{width:5px!important;}
+.ancho10{width:10px;}
+.ancho40{width:40px;}
+.ancho150{width:150px;}
+.ancho160{width:160px;}
+.ancho190{width:190px;}
+.ancho200L{width:200px;}
+.ancho225{width:225px;}
+.ancho424{width:424px!important;}
+.ancho459{width:459px!important;}
+.ancho500{width:500px!important;}
+
+/* Altos */
+.alto30{height:30px!important;}
+.alto65{height:65px!important;}
+.alto95{height:95px!important;}
+.alto100{height:100px!important;}
+.alto125{height:125px!important;}
+.alto235{height:235px;}
+.alto250{height:250px;}
+.alto320{height:320px;}
+
+/* Margenes */
+.marginAuto{margin-left:auto;margin-right:auto;}
+.marginT3{margin-top:3px;}
+.marginT5{margin-top:5px;}
+.marginT8{margin-top:8px;}
+.marginT10{margin-top:10px;}
+.marginT15{margin-top:15px;}
+.marginT20{margin-top:20px;}
+.marginT25{margin-top:25px;}
+.marginT30{margin-top:30px;}
+.marginT60{margin-top:60px;}
+.marginT35{margin-top:35px;}
+
+.marginR10{margin-right:10px;}
+
+.marginB20{margin-bottom:20px;}
+
+.marginL10{margin-left:10px;}
+.marginL20{margin-left:20px;}
+
+/* Paddings */
+.padding5{padding:5px;}
+.padding10{padding:10px;}
+.padding20{padding:20px;}
+
+.paddingT0{padding-top:0!important;}
+.paddingT2{padding-top:2px;}
+.paddingT5{padding-top:5px;}
+.paddingT10{padding-top:10px;}
+.paddingT20{padding-top:20px;}
+.paddingT50{padding-top:50px;}
+
+.paddingR10{padding-right:10px;}
+
+.paddingB5{padding-bottom:5px;}
+.paddingB10{padding-bottom:10px;}
+.paddingB15{padding-bottom:15px;}
+.paddingB20{padding-bottom:20px;}
+
+.paddingL10{padding-left:10px;}
+.paddingL20{padding-left:20px;}
+.paddingL26{padding-left:26px;}
+.paddingL100{padding-left:100px;}
+/* Elementos de Form */
+select{
+	border:#7e9db9 1px solid;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;
+}
+.input{
+	margin:0px;
+	padding:0px;
+	border:#7e9db9 1px solid;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:11px;
+	padding-top:2px;
+	color:#666;
+	height:17px;
+}
+.inputError{
+	margin:0px;
+	padding:0px;
+	border:#ee2e24 1px solid;
+	padding-left:5px;
+	padding-right:5px;
+	font-size:11px;
+	padding-top:2px;
+	color:#666;
+	height:17px;
+}
+.btn_gris_157{
+	background:url(/bestbanking/BB/images/btn_gris_157.gif) no-repeat;
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:157px;
+	border:0px;
+	cursor:pointer;
+}
+.btn_gris_157:hover{
+	background:url(/bestbanking/BB/images/btn_gris_157_h.gif) no-repeat;
+}
+.btn_celeste_91{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height               : 20px;
+	width                : 91px;
+	background-position  : -2px -75px;
+	border:0px;
+	cursor:pointer;
+}
+.btn_celeste_91:hover{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 20px;
+	width                : 91px;
+	background-position  : -97px -44px;
+}
+.btn_rojo_91{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 20px;
+	width                : 91px;
+	background-position  : -215px -84px;
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	border:0px;
+	cursor:pointer;
+}
+.btn_rojo_91:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 20px;
+	width                : 91px;
+	background-position  : -216px -60px;
+}
+
+
+.border_CCCCCC{
+	border:1px solid #CCCCCC;
+}
+.borderT_Dotted_CCCCCC{
+	border-top:1px dotted #CCCCCC;
+}
+.borderR_Dotted_CCCCCC{
+	border-right:1px dotted #CCCCCC;
+}
+.borderR_CCCCCC{
+	border-right:1px solid #CCCCCC;
+}
+.borderB_E6E6E6{
+	border-bottom:1px solid #E6E6E6;
+}
+.borderT_E6E6E6{
+	border-top:1px solid #E6E6E6;
+}
+.borderB_FFFFFF{
+	border-bottom:1px solid #FFFFFF;
+}
+.borderTB_7487ae{
+	border-top:1px solid #7487ae;
+	border-bottom:1px solid #7487ae;
+}
+
+
+.ligas_head{
+	clear:both;
+	float:right;
+	color:#666666;
+}
+.ligas_head a{
+	font-size:11px;
+	color:#666666;
+	text-decoration:none;
+}
+.ligas_head a:hover{
+	font-size:11px;
+	color:#666666;
+	text-decoration:underline;
+}
+.bannerLeft{
+	background:url(/bestbanking/BB/images/bannerLeft.gif) repeat-x;
+	width:450px;
+	height:256px;
+}
+.bannerCenter{
+	background:url(/bestbanking/BB/images/bannerCenter.gif) repeat-x;
+	height:256px;
+}
+.bannerRight{
+	background:url(/bestbanking/BB/images/bannerRight.gif) no-repeat;
+	width:245px;
+	height:256px;
+}
+.ico_print{ 
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 21px;
+	width                : 23px;
+	background-position  : -95px -74px;
+	cursor:pointer;
+}
+.ico_print:hover{ 
+	background:url(/bestbanking/BB/images/ico_print_h.gif) no-repeat;
+}
+
+.bgedf5e8{background:#edf5e8;}
+.bgf0f4f9{background:#f0f4f9;}
+.bgeff8ff{background:#eff8ff;}
+.bge1081f{background:#e1081f;}
+
+/* Cuadro rendondeado celeste */
+.esq_top_der_BGf0f4f9{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -50px -123px;
+}
+.esq_top_izq_BGf0f4f9{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -74px -123px;
+}
+.esq_bottm_der_BGf0f4f9{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -2px -123px;
+}
+.esq_bottm_izq_BGf0f4f9{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -26px -123px;
+}
+.top_BGf0f4f9{
+	border-top:1px solid #e6e6e6;
+	background:#f0f4f9;
+	width:100%;
+	font-size:30%;
+}
+.bottm_BGf0f4f9{
+	border-bottom:1px solid #e6e6e6;
+	background:#f0f4f9;
+	width:100%;
+	font-size:30%;
+}
+.left_BGf0f4f9{
+	border-left:1px solid #e6e6e6;
+	background:#f0f4f9;
+	width:10px;
+	font-size:30%;
+}
+.right_BGf0f4f9{
+	border-right:1px solid #e6e6e6;
+	background:#f0f4f9;
+	width:10px;
+	font-size:30%;
+}
+
+/* Cuadro redondeado con bordes azulados */
+.esq_top_der_BGFFFFFF{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -307px -15px;
+}
+.esq_top_izq_BGFFFFFF{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -322px -15px;
+}
+.esq_bottm_der_BGFFFFFF{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -260px -16px;
+}
+.esq_bottm_izq_BGFFFFFF{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -275px -16px;
+}
+.top_BGFFFFFF{
+	border-top:1px solid #7487ae;
+	background:#FFFFFF;
+	width:100%;
+	font-size:30%;
+}
+.bottm_BGFFFFFF{
+	border-bottom:1px solid #7487ae;
+	background:#FFFFFF;
+	width:100%;
+	font-size:30%;
+}
+.left_BGFFFFFF{
+	border-left:1px solid #7487ae;
+	background:#FFFFFF;
+	width:10px;
+	font-size:30%;
+}
+.right_BGFFFFFF{
+	border-right:1px solid #7487ae;
+	background:#FFFFFF;
+	width:10px;
+	font-size:30%;
+}
+
+/* Cuadro redondeado con bordes grises */
+.esq_top_der_BGFFFFFF_2{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -62px -123px;
+}
+.esq_top_izq_BGFFFFFF_2{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -86px -123px;
+}
+.esq_bottm_der_BGFFFFFF_2{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -14px -123px;
+}
+.esq_bottm_izq_BGFFFFFF_2{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -38px -123px;
+}
+.top_BGFFFFFF_2{
+	border-top:1px solid #e6e6e6;
+	background:#FFFFFF;
+	width:100%;
+	font-size:30%;
+}
+.bottm_BGFFFFFF_2{
+	border-bottom:1px solid #e6e6e6;
+	background:#FFFFFF;
+	width:100%;
+	font-size:30%;
+}
+.left_BGFFFFFF_2{
+	border-left:1px solid #e6e6e6;
+	background:#FFFFFF;
+	width:10px;
+	font-size:30%;
+}
+.right_BGFFFFFF_2{
+	border-right:1px solid #e6e6e6;
+	background:#FFFFFF;
+	width:10px;
+	font-size:30%;
+}
+
+
+.esq_top_der_BGEFF8FF{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -291px -15px;
+}
+.esq_bottm_der_BGEFF8FF{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 10px;
+	width                : 10px;
+	background-position  : -245px -16px;
+}
+.right_BGEFF8FF{
+	background:url(/bestbanking/BB/images/right_EFF8FF.gif) repeat-y;
+	width:10px;
+	font-size:30%;
+}
+
+/**/
+.saldos_bordeSupIz2b_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_d_v.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeSupIz2c_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_i_v.gif) bottom no-repeat;
+	height:20px;
+}
+.saldos_bordeSupIz2b_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_d_v.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeSupIz2c_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_i_v.gif) bottom no-repeat;
+	height:20px;
+}
+.saldos_bordeSupDe2b_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_i_v.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeInfDe2c_V{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_d_v.gif) bottom no-repeat;
+	height:20px;
+}
+.bordeSupCe2b_v{
+	width:100%;
+	background:#edf5e8;
+	border-top:1px solid #64ad40;
+}
+.bordeSupCe2c_V{
+	width:100%;
+	background:#edf5e8;
+	border-bottom:1px solid #64ad40;
+}
+.bordesIz1_v{
+	background:#edf5e8;
+	border-left:1px solid #64ad40;
+}
+.bordesDe1_v{
+	background:#edf5e8;
+	border-right:1px solid #64ad40;
+}
+
+
+/**/
+.saldos_bloque1_tit1{
+	font-size:24px;
+	color:#09347a;
+	line-height:24px;
+	float:left;
+	padding-top:15px;
+	font-weight:bold;
+}
+.saldos_bloque1_tit1_btnBox{
+	float:left;
+	width:22px;
+	padding-left:2px;
+	height:19px;
+	cursor:default;
+	padding-top:5px;
+}
+.saldos_bloque1_tit1_btn{
+	background:#FFFFFF url(/bestbanking/BB/images/btn_titulo.gif) right no-repeat;
+	width:13px;
+	height:14px;
+	cursor:default;
+}
+.saldos_bloque1_tit1_txt{
+	float:left;
+	cursor:default;
+}
+.saldos_bloque1_tit1_txt span{
+	font-size:24px;
+	color:#09347a;
+	line-height:24px;
+	cursor:default;
+	font-weight:bold;
+}
+.saldos_bloque1_box1{
+	float:right;
+	width:180px;
+	padding-top:15px;
+	height:21px;
+}
+.saldos_btn1{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 21px;
+	width                : 20px;
+	background-position  : -216px -110px;
+	margin-right:10px;
+	float:right;
+	cursor:pointer;
+}
+.saldos_btn1:hover{
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 21px;
+	width                : 20px;
+	background-position  : -246px -110px;
+}
+
+
+.tab_close{
+	background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 134px;
+	width                : 21px;
+	background-position  : -327px -46px;
+	cursor:pointer;
+}
+.tab_open{
+    background:url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 134px;
+	width                : 21px;
+	background-position  : -353px -45px;
+	cursor:pointer;
+}
+.error{ 
+	background:url(/bestbanking/BB/images/icoError1.gif) no-repeat;
+	padding-left:15px;
+	font-size:11px;
+	color:#ee2e24;
+}
+
+
+/*************************** PAGINACION ****************************/
+.paginacion .antsig{
+	font-size:11px;
+	text-decoration:underline;
+}
+.paginacion .antsig_d{ 
+	text-decoration:underline;
+	color:#cccccc;
+	cursor:default;
+	font-size:11px;
+}
+.paginacion .antsig:hover{ 
+	text-decoration:underline;
+	font-size:11px;
+}
+.paginacion .num{ 
+	padding:0 5px 0 5px;
+	border-right:1px solid #1e87dd;
+	text-decoration:none;
+	font-size:11px;
+}
+.paginacion .sel_num{ 
+	background:#ee8324;
+	color:#fff;
+	font-size:11px;
+	padding:0 5px 0 5px;
+	cursor:default;
+	margin-left:-1px;
+	text-decoration:none;
+}
+.ant_bloque{
+	background:url(/bestbanking/BB/images/ant_bloque.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	cursor:pointer;
+	text-align:center;
+}
+.ant_bloque:hover{
+	background:url(/bestbanking/BB/images/ant_bloque_h.gif) no-repeat;
+}
+.ant_bloque_d{
+	background:url(/bestbanking/BB/images/ant_bloque_dis.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	text-align:center;
+}
+
+.sig_bloque{
+	background:url(/bestbanking/BB/images/sig_bloque.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:11px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	cursor:pointer;
+	margin-left:1px;
+	text-align:center;
+}
+.sig_bloque:hover{
+	background:url(/bestbanking/BB/images/sig_bloque_h.gif) no-repeat;
+}
+.sig_bloque_d{
+	background:url(/bestbanking/BB/images/sig_bloque_dis.gif) no-repeat;
+	width:43px;
+	height:17px;
+	font-size:10px;
+	color:#fff;
+	padding-top:3px;
+	margin-left:1px;
+	text-align:center;
+}
+
+.top2{
+	position:relative;
+	top:2px;
+}
+.top5{
+	position:relative;
+	top:5px;
+}
+
+.panelIz2_conten1_p1{
+	width:190px;
+	height:94px;
+	background:url(/bestbanking/BB/images/banner_gana.gif) no-repeat;
+}
+.marginT14{margin-top:14px!Important;}
+
+.linklogin{
+	color: #1E87DD;
+    text-decoration: underline;
+}
+/** Estilos nuevos para Configuracion BNE **/
+.ancho35p{width:35%!important;}
+.ancho21 {
+	width:21px !important;
+}
+/**fin de estilos nuevos para Configuracion BNE**/
+.inputBtn9{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:210px;
+	background:url(/bestbanking/BB/images/btn_9.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+.inputBtn9:hover{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:210px;
+	background:url(/bestbanking/BB/images/btn_9_h.gif) no-repeat;
+	border:0px;
+	cursor:pointer;
+}
+/*******************************************/
+
+
+/***********Estilos Sprint 10*/
+
+.inputBtn1_des_b{
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	padding-bottom:2px;
+	height:20px;
+	width:91px;
+	background:url(/bestbanking/BB/images/btn_celeste_des.gif) no-repeat;
+	border:0px;
+	cursor:default;
+}
+/********************/
+
+/************S9************/
+.f11_1{
+	font-size:11px!important;
+}
+.titulo_tabla_at_emergente{
+	border-bottom:1px solid #c0c0c0;
+	font-weight:bold;
+	margin:16px 0 10px 0;
+	padding-bottom:2px;
+	
+}
+.alto52{height:52px!important;}
+.ancho750 {
+	width:750px;
+}
+.ancho700 {
+	width:700px;
+}
+.alto71{
+	height:71px!important;
+}
+/*************************/
+
+/*********ESTILOS SPRINT 10 TIP*************/
+
+.saldos_bordeSupIz2b_N{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_d_n.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeSupIz2c_N{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_i_n.gif) bottom no-repeat;
+	height:20px;
+}
+.saldos_bordeSupDe2b_N{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_top_i_n.gif) no-repeat;
+	height:20px;
+}
+.saldos_bordeInfDe2c_N{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq_bottm_d_n.gif) bottom no-repeat;
+	height:20px;
+}
+.bordeSupCe2b_N{
+	width:100%;
+	background:#ffedd9;
+	border-top:1px solid #ff8300;
+}
+.bordeSupCe2c_N{
+	width:100%;
+	background:#ffedd9;
+	border-bottom:1px solid #ff8300;
+}
+.bordesIz1_N{
+	background:#ffedd9;
+	border-left:1px solid #ff8300;
+}
+.bordesDe1_N{
+	background:#ffedd9;
+	border-right:1px solid #ff8300;
+}
+
+.bgffedd9{
+	background:#ffedd9;
+}
+
+/****************Combo monospace**************************/
+.selectp1{
+	border:#7e9db9 1px solid;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;
+	font-family:courier new;
+}
+/*DOMICILIACION*/
+.selectp2{
+	border:#7e9db9 1px solid;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11x;
+	font-family:courier new;
+	width:280px;
+}
+
+/***************    ESTILOS OrdenaTable		***********/
+
+table.sortable {
+	padding-left:10px;
+	padding-right:10px;
+	font-size:11px;
+}
+
+table.sortable a{
+	text-decoration:underline;
+	font-size:11px;
+}
+
+table.sortable span{
+	font-weight:bold;
+	color:#333;
+	font-size:11px;
+}
+table.sortable p{
+	font-weight:bold;
+	color:#333;
+	font-size:12px;
+}
+
+
+table.sortable td {
+	padding:5px 10px 5px 10px;
+	color:#666;
+	font-size:11px;
+}
+table.sortable tr.odd td {
+	background-color: #FFFFFF;
+}
+table.sortable tr.even td {
+	background-color: #F0F4F9;
+}
+table.sortable tr.sortbottom td {
+	border-top: 1px solid #444;
+	background-color: #ccc;
+	font-weight: bold;
+}
+ 
+.saldos_bloque2_f4_error_display_snreg{
+	height:15px;
+	float:none;
+	padding-top:5px;
+	padding-left:17px;
+	background:url(/bestbanking/BB/images/bg2.gif) -38px -18px no-repeat;
+	width:300px;
+}
+
+.imageButton{
+  background-color: #FFFFFF;
+  background-image:url('/bestbanking/BB/images/menos_bkblanco.gif');
+  background-repeat:no-repeat;
+  width: 3;
+  height:3;
+  background-position:center;
+  border-width: 0px;
+} 
+.saldos_bloque4_ayuda_btn{
+	width:18px;
+	height:17px;
+	cursor:pointer;
+	background:url('/bestbanking/BB/images/preg2.gif') no-repeat;
+	float:right;
+	margin-top:4px;
+}
+.saldos_bordeSupIz_gris{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq1_gris.gif) left top no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeSupDe_gris{
+	width:20px;
+	padding:0px;
+	margin:0px;
+	background:url(/bestbanking/BB/images/esq2_gris.gif) right top no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.bordeSupCe2b_gris{
+	border-top: 1px solid #7487ae;
+	background-color:#f1f1f1;
+	width:100%;
+	border-bottom:2px solid #ededed;
+}
+.saldos_bordeInfIz2b_gris{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq3_gris.jpg) left bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeInfDe2b_gris{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq4_gris.jpg) left bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+
+.saldos_bordeSupDeMec{
+	width:20px;
+	padding:0px;
+	margin-left:-10px;
+	height:10px;
+	background:url(../images/bg2.gif) left -279px no-repeat;
+	float:right;
+}
+
+.saldos_bordeInfDe2b{
+	width:10px;
+	padding:0px;
+	margin:0px;
+	background: url(../images/esq4.png) -10px -5px no-repeat;
+	height:15px;
+	font-size:30%;
+}
+
+.saldos_bordeInfIz2b{
+	width:10px;
+	padding:0px;
+	margin:0px;
+	background: url(../images/esq3.png) 0px -5px no-repeat;
+	height:15px;
+	font-size:30%;
+}
+
+.saldos_bordeInfCe2b{
+	width:100%;
+	background: url(../images/bordeT.png) repeat scroll 0 14px transparent;
+}
+
+/******ESTILOS S8*******/
+.tablaSaldos3_S8{
+}
+.tablaSaldos3_S8 td{
+	padding:4px 4px 4px 4px;
+	color:#666;
+	font-size:11px;
+	line-height:12px;
+}
+.tablaSaldos3_S8 span{
+	font-weight:bold;
+	color:#333;
+	font-size:11px;
+}
+.tablaSaldos3_S8 p{
+	color:#333;
+	font-weight:bold;
+	font-size:12px;
+}
+.tablaSaldos3_S8 a{
+	font-size:11px;
+	text-decoration:underline;
+}
+.ancho5p{
+	width:5%;
+}
+/***********************/
+.selectTIP {
+    border: 1px solid #7E9DB9;
+    color: #666666;
+    font-size: 11px;
+    height: 15px;
+    padding-bottom: 2px;
+    padding-top: 1px;
+    width: 310px;
+}
+
+/******CLASES NUEVAS CSS SPRITE*******/
+
+.ico_flecha{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 26px;
+	width                : 20px;
+	background-position  : -120px -70px;
+}
+
+.candado{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 11px;
+	width                : 9px;
+	background-position  : -142px -76px;
+	margin-left:99px;
+	margin-top:-17px;
+ }
+ 
+ .requiere_ex{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 25px;
+	width                : 20px;
+	background-position  : -2px -97px;
+	margin-left:0px;
+	margin-top:0px;
+ }
+ 
+  .requiere_ad{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 25px;
+	width                : 20px;
+	background-position  : -22px -97px;
+	margin-left:0px;
+	margin-top:0px;
+ }
+ 
+  .requiere_ja{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 25px;
+	width                : 21px;
+	background-position  : -42px -97px;
+	margin-left:0px;
+	margin-top:0px;
+ }
+ 
+ .ico_errorL{
+	background:url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	height               : 18px;
+	width                : 18px;
+	background-position  : -154px -99px;
+	display:inline-block;
+	float:left;
+	margin-right:4px;
+ }
+/*********S8 10-08-11**************/
+.saldos_bordeSupIz2c_2_aB{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaL2.gif) bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeInfDe2c_2_aB{
+	width:20px;
+	background:url(/bestbanking/BB/images/esquinaR2.gif) bottom no-repeat;
+	height:20px;
+	font-size:30%;
+	
+}
+.bordeSupCe2c_2B{
+	background:url(/bestbanking/BB/images/bordeT_2.gif) bottom;
+	font-size:30%!important;
+}
+/***********************/
+.saldos_bloque2_oc{	
+	width:100%;
+	clear:both;
+}
+/******* HISTORIAL **********/
+.left{text-align:left;}
+/***********************/
+.netkey{  
+	background:#FFFFFF url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+	height               : 137px;
+	width                : 204px;
+	background-position  : -2px -44px;
+	display:inline-block;
+ }
+ 
+ .preg{  
+	background: url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+    height               : 16px;
+    width                : 16px;
+    background-position  : -305px -30px;
+	display:inline-block;
+ }
+
+
+.excel{ 
+	background: url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+    height               : 31px;
+    width                : 28px;
+    background-position  : -295px -107px;
+	display:inline-block;
+ }
+
+.texto{ 
+	background: url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+    height               : 31px;
+    width                : 28px;
+    background-position  : -295px -141px;
+	display:inline-block;
+ }
+
+ .ico_error{ 
+	background: url(/bestbanking/BB/images/css_spritebb.gif) no-repeat;
+    height               : 12px;
+    width                : 12px;
+    background-position  : -199px -28px;
+	display:inline-block;
+	float:left;
+	margin-right:4px;
+ }
+ .saldos_bordeSupIz2c_2S3{
+	width:10px;
+	background:url(/bestbanking/BB/images/esquinaL3.gif) no-repeat;
+	height:10px;
+	font-size:30%;
+}
+.saldos_bordeInfDe2c_2S3{
+	width:10px;
+	background:url(/bestbanking/BB/images/esquinaR3.gif) no-repeat;
+	height:10px;
+	font-size:30%;
+}
+/******* Reportes y Contratos ***/
+.saldos_bordeRyCI_gris{
+	width:20px;
+	background:url(../images/esqRyCI_gris.gif) left bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeRyCD_gris{
+	width:20px;
+	background:url(../images/esqRyCD_gris.gif) left bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+/********************************/
+
+.bannerLeft_es{
+	background:  url(https://www.banamex.com/resources/bancanets/bne/esp/banners/SpriteNegociosEs.jpg) 0px 0px no-repeat;
+	width:421px;
+	height:256px;
+	cursor:pointer;
+}
+.bannerCenter_es{
+	background:  url(https://www.banamex.com/resources/bancanets/bne/esp/banners/SpriteNegociosEs.jpg) 0px -512px no-repeat;
+	height:256px;
+	cursor:pointer;
+}
+.bannerRight_es{
+	background:  url(https://www.banamex.com/resources/bancanets/bne/esp/banners/SpriteNegociosEs.jpg) 0px -256px no-repeat;
+	width:293px;
+	height:256px;
+	cursor:pointer;
+}
+.bannerLeft_in{
+	background:  url(https://www.banamex.com/resources/bancanets/bne/eng/banners/SpriteNegociosEs.jpg) 0px 0px no-repeat;
+	width:421px;
+	height:256px;
+	cursor:pointer;
+}
+.bannerCenter_in{
+	background:  url(https://www.banamex.com/resources/bancanets/bne/eng/banners/SpriteNegociosEs.jpg) 0px -512px no-repeat;
+	height:256px;
+	cursor:pointer;
+}
+.bannerRight_in{
+	background:  url(https://www.banamex.com/resources/bancanets/bne/eng/banners/SpriteNegociosEs.jpg) 0px -256px no-repeat;
+	width:293px;
+	height:256px;
+	cursor:pointer;
+}
+.saldos_bloque2_f4_error_display_snreg2{
+	height:15px;
+	float:none;
+	padding-top:5px;
+	padding-left:17px;
+	background:url(/bestbanking/BB/images/icoError1.gif) 0px 5px no-repeat;
+	width:300px;
+}
+.noAnchor{
+	text-decoration: none!important;
+	color: #666!important;
+}
+/*****OPTIMIZACION****/
+.protegete{
+	width:32px;
+	height:32px;
+	background:#FFFFFF url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	background-position  : -100px -122px;
+	float:left;
+	margin-left:8px !important;
+	margin-right:10px !important;
+}
+.instalado{
+	width:32px;
+	height:32px;
+	background:#FFFFFF url(/bestbanking/BB/images/sprite_loginbb.gif) no-repeat;
+	background-position  : -135px -122px;
+	float:left;
+	margin-left:8px !important;
+	margin-right:10px !important;
+}
+/*leyenda*/
+.saldos_bordeSupIzl_gris{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq1_gris.gif) left top no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeSupDel_gris{
+	width:20px;
+	padding:0px;
+	margin:0px;
+	background:url(/bestbanking/BB/images/esq2_gris.gif) right top no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.bordeSupCe2bl_gris{
+	border-top: 1px solid #7487ae;
+	background-color:#f1f1f1;
+	width:100%;
+
+}
+.bordesIz1_gris{
+	background-color:#f1f1f1;
+	border-left:1px solid #7487ae;
+}
+.bordesDe1_gris{
+	background:#f1f1f1;
+	border-right:1px solid #7487ae;
+}
+.saldos_bordeInfIz2bl_gris{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq4_grisl.gif) left bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.saldos_bordeInfDe2bl_gris{
+	width:20px;
+	background:url(/bestbanking/BB/images/esq5_grisl.gif) left bottom no-repeat;
+	height:20px;
+	font-size:30%;
+}
+.bordeInfCe2b_gris{
+
+	background-color:#f1f1f1;
+	width:100%;
+	border-bottom:1px solid #7487ae;
+	
+}
+.banner_login_es{background:transparent url(https://www.banamex.com/resources/bancanets/bne/esp/banners/SpriteNegociosEs.jpg) no-repeat 0px -897px;	width: 223px; height: 175px; border: none;}
+.banner_login_en{background:transparent url(https://www.banamex.com/resources/bancanets/bne/eng/banners/SpriteNegociosEs.jpg) no-repeat 0px -897px;	width: 223px; height: 175px; border: none;}
+#ventanaEmergente-contenidoLogin{display:none; width:40px; margin-left:auto; margin-right:auto; }
+#cortinaOverlayLogin {background-color:#000000; cursor:default; }
+.encaVentanaEmergente{height:15px;padding-left:10px;padding-right:10px;}
+.encaVentanaEmergenteIn{height:15px;background:url(/bestbanking/BB/images/bordeT.png);}
+.pieVentanaEmergenteIn{height:15px;background:#FFF url(/bestbanking/BB/images/bordeT.png) left 14px;}
+.conteVentanaEmergente{background:#fff url(/bestbanking/BB/images/bordeR.png) right top repeat-y}
+.conteVentanaEmergenteIn{background:url(/bestbanking/BB/images/bordeR.png) 14px top repeat-y;}
+.encaVentanaEmergenteEsq3{width:20px;float:left;height:15px;font-size:30%;margin-left:-10px;background:url(/bestbanking/BB/images/bg3.png) -68px -21px no-repeat;}
+#mensajeError_contenidoLogin{background-color:#ffffff;padding-top:5px;display:none;padding-bottom:5px;overflow:hidden;padding-left:0px;padding-right:0px;text-shadow:0 1px 0 #f4f4f4;}
+.ventanaEmergenteLogin{width:100%;}
+.errorLoginTexto{font-size:16px; font-weight:bold; color:#333; margin-left:7px;}
+/***************************** Estilos Impresion Banamex Impresion ***************/
+.contenedorBanamexImpresion{
+	padding-left:60px !important;
+	padding-right:60px !important;
+}
+
+.inputBtnPaging{
+	color:#0099FF;
+	height:16px;
+	width:21px;
+	border:0px;
+	cursor:pointer;
+	font-size: 10px;
+}
+.inputBtnPaging:hover{
+	color:#FFF;
+	background:#FF9900;
+	border:0px;
+	cursor:pointer;
+}
+
+.inputBtnPaging2{
+	color:#0099FF;
+	height:16px;
+	width:70px;
+	border:0px;
+	cursor:pointer;
+	text-decoration: underline;
+	font-size: 10px;
+}
+.inputBtnPaging2:hover{
+	color:#FFF;
+	background:#FF9900;
+	border:0px;
+	cursor:pointer;
+	text-decoration: underline;
+}
+
+.inputBtnPagingDisabled{
+	color:#000000;
+	height:20px;
+	width:21px;
+	border:0px;
+	font-size: 10px;
+}
+
+.inputBtnPagingDisabled2{
+	color:#000000;
+	height:20px;
+	width:80px;
+	border:0px;
+	font-size: 10px;
+}
+
+.bgFF9900{
+background:#FF9900;
+}
+
+.inputBtnCurrentSelection{
+	color:#FFF;
+	height:16px;
+	width:16px;
+	border:0px;
+}
+
+.sat_bloque1{
+	width:100%;
+	height:85px;
+}
+
+.borderL1{
+	border-left:1px solid #7487ae;
+}
+.borderR1{
+	border-right:1px solid #7487ae;
+}
+
+
+/*****FX_PULSE***/
+.fl1 {
+	float: left;
+}
+.titulo_tabla_at_emergente1{
+	border-bottom:1px solid #c0c0c0;
+	padding-bottom:6px;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-right: 0;
+	margin-bottom: 8px;
+	margin-left: 0;
+}.cap {
+	text-transform: uppercase;
+}
+
+.text15 {
+	font-size: 14px;
+}
+.titcot{
+	padding-top:2px;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom: 15px;
+	margin-left:0px;
+	color:#000000;
+}
+.verif {
+	font-size:11px!important;
+	color:#666666!important;
+	margin-top: 25px;
+}
+.fxCambio{
+	height:25px;
+	font-size:21px!important;
+}
+/***********estilo link Clave Rastreo****************/
+.color_link_CR { 
+	color:#013ADF; 
+	cursor:pointer;
+}
+
+.color_tx_CR{ 
+	color:#BF00FF;
+}
+/****************************************************/
+.linkSimulaAnchor{
+	text-decoration:underline; 
+	color: rgb(30, 39, 218) !important;
+	font-weight:normal !important;
+}
+
+.linkSimulaAnchor:hover{
+	cursor:pointer;
+}
+
+.ancho23p {
+    width: 23%;
+}
+
+.padding0L2020 {
+    padding: 0 20px 0 20px !important;
+}
+
+.selectCtasCTA{
+	border:#7e9db9 1px solid;
+	width:230px;
+	color:#666;
+	height:20px;
+	padding-top:1px;
+	padding-bottom:2px;
+	font-size:11px;
+}
+
+.paddingB9{
+	padding-bottom:9px!important;
+}
