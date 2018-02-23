@@ -28,16 +28,25 @@ angular.module('ca2App').controller('LocationsCtrl', function($timeout) {
             .bindPopup('1595 High Point Drive Elgin, IL 60123')
             .openPopup();
 
-        /*Auburn Hills Map*/
+        /*El Paso Map*/
         L.mapbox.accessToken = 'pk.eyJ1IjoiaW5zcGlyYWNvZGUiLCJhIjoiY2lodjg2YndyMDIwZnY0a29qZjc0bTNzbCJ9.RVsl3Cxz87t55LkyvL3nwg';
         var mapElPaso = L.mapbox.map('mapElPaso', 'mapbox.streets')
-            .setView([31.7202445,-106.3017787], 12);
+            .setView([31.7202445, -106.3017787], 12);
 
-        L.marker([31.7202445,-106.3017787]).addTo(mapElPaso)
+        L.marker([31.7202445, -106.3017787]).addTo(mapElPaso)
             .bindPopup('12120 Esther Lama Drive Suite 120, Building 2 El Paso, TX 79936')
             .openPopup();
 
-        /*Auburn Hills Map*/
+        /*7 Zane Grey Map*/
+        L.mapbox.accessToken = 'pk.eyJ1IjoiaW5zcGlyYWNvZGUiLCJhIjoiY2lodjg2YndyMDIwZnY0a29qZjc0bTNzbCJ9.RVsl3Cxz87t55LkyvL3nwg';
+        var mapElPasoSevenZaneGrey = L.mapbox.map('mapElPasoSevenZaneGrey', 'mapbox.streets')
+            .setView([31.8058377, -106.4083787], 12);
+
+        L.marker([31.8058377, -106.4083787]).addTo(mapElPasoSevenZaneGrey)
+            .bindPopup('7 Zane Grey Street, El Paso, TX, USA')
+            .openPopup();
+
+        /*Juarez Map*/
         L.mapbox.accessToken = 'pk.eyJ1IjoiaW5zcGlyYWNvZGUiLCJhIjoiY2lodjg2YndyMDIwZnY0a29qZjc0bTNzbCJ9.RVsl3Cxz87t55LkyvL3nwg';
         var mapJuarez = L.mapbox.map('mapJuarez', 'mapbox.streets')
             .setView([31.7472126, -106.4292406], 12);
